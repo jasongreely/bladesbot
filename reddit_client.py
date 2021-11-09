@@ -7,6 +7,8 @@ import soccersapi_client
 config = yaml.load(open('config.yaml'), Loader=yaml.FullLoader)
 sidebar_league_id = config['soccersapi_sidebar_league_id']
 sub_team_name = config['reddit_sub_team_name']
+subreddit_name = config['reddit_subreddit_name']
+sidebar_standings_widget_name = config['reddit_sidebar_standings_widget_name']
 
 
 def auth():
@@ -33,6 +35,14 @@ def build_sidebar_standings():
                     formatted_row.append('**%s**' % cell)
                 table_row = '|'.join(formatted_row)
             table.append(table_row)
-    return table
+    return '\n'.join(table)
 
 
+def update_sidebar_standings(reddit):
+    widgets = reddit.subreddit(subreddit_name).widgets
+    for widget in widgets.sidebar:
+        if widget.shortName == sidebar_standings_widget_name:
+            widget.mod.update(text=build_sidebar_standings())
+
+
+reddit = auth()
