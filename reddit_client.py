@@ -1,9 +1,12 @@
 import praw
 import yaml
 import time
+import soccersapi_client
 
 # temp load config for testing, @TODO move to main and pass through
 config = yaml.load(open('config.yaml'), Loader=yaml.FullLoader)
+sidebar_league_id = config['soccersapi_sidebar_league_id']
+sub_team_name = config['reddit_sub_team_name']
 
 
 def auth():
@@ -16,5 +19,20 @@ def auth():
     )
 
 
-reddit = auth()
-print(reddit.read_only)
+def build_sidebar_standings():
+    table = ['\#|Team|PTS|W|D|L', ':--:|:--:|:--:|:--:|:--:|:--:']
+    standings = soccersapi_client.get_league_standings_by_id(sidebar_league_id)
+    if standings['data']['standings']:
+        for team in standings['data']['standings']:
+            team_overall = team['overall']
+            table_row = '%s|%s|%s|%s|%s|%s' % (team_overall['position'], team['team_name'], team_overall['points'], team_overall['won'], team_overall['draw'], team_overall['lost'])
+            if team['team_name'] == sub_team_name:
+                cells = table_row.split('|')
+                formatted_row = []
+                for cell in cells:
+                    formatted_row.append('**%s**' % cell)
+                table_row = '|'.join(formatted_row)
+            table.append(table_row)
+    return table
+
+
