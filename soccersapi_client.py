@@ -7,6 +7,7 @@ base_uri = '%s%s/' % (config['soccersapi_baseuri'], config['soccersapi_version']
 auth_params = {'user': config['soccersapi_user'], 'token': config['soccersapi_token_dev']}
 
 leagues_uri = '%sleagues/' % base_uri
+fixtures_uri = '%sfixtures/' % base_uri
 
 
 def request(uri, params):
@@ -40,3 +41,24 @@ def get_league_standings_by_id(league_id):
     league = get_league(league_id)
     if league['data'] and league['data']['id_current_season']:
         return get_standings(league['data']['id_current_season'])
+
+
+# get previous and next fixtures for team
+def get_next_last_fixtures(team_id):
+    params = {**auth_params, **{'t': 'last_next', 'team_id': team_id}}
+    return request(fixtures_uri, params)
+
+
+# get match by ID
+def get_match_by_id(match_id):
+    params = {**auth_params, **{'t': 'info', 'id': match_id}}
+    return request(fixtures_uri, params)
+
+
+# get matches for today
+def get_today_fixtures(team_id):
+    next_last = get_next_last_fixtures(team_id)
+    if next_last['data']['current']:
+        match = next_last['data']['current'][0]
+        return get_match_by_id(match['id'])
+

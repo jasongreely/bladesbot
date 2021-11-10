@@ -1,0 +1,2898 @@
+{
+    "data": {
+        "next": [
+            {
+                "id": 1406434,
+                "status": 17,
+                "status_name": null,
+                "status_period": null,
+                "pitch": null,
+                "referee_id": null,
+                "round_id": "139299",
+                "round_name": "15",
+                "season_id": "10512",
+                "season_name": "21/22",
+                "stage_id": "1",
+                "stage_name": "Regular Season",
+                "group_id": "222",
+                "group_name": "Bundesliga",
+                "aggregate_id": null,
+                "winner_team_id": null,
+                "venue_id": "2443",
+                "leg": null,
+                "week": "46",
+                "deleted": "0",
+                "info": null,
+                "attendance": null,
+                "time": {
+                    "datetime": "2021-11-20 16:00:00",
+                    "date": "2021-11-20",
+                    "time": "16:00:00",
+                    "minute": null,
+                    "timestamp": 1637424000,
+                    "timezone": "UTC"
+                },
+                "teams": {
+                    "home": {
+                        "id": 1080,
+                        "name": "SV Ried",
+                        "short_code": "SVR",
+                        "img": "https://cdn.soccersapi.com/images/soccer/teams/80/1080.png",
+                        "form": null,
+                        "coach_id": null,
+                        "kit_colors": {
+                            "home_main_color": "#346767",
+                            "home_second_color": "#008000",
+                            "home_number_color": "#ffffff",
+                            "home_gk_main_color": "#ffff33",
+                            "home_gk_second_color": "#000000",
+                            "home_gk_number_color": "#000000"
+                        }
+                    },
+                    "away": {
+                        "id": 2873,
+                        "name": "Hartberg",
+                        "short_code": "HTB",
+                        "img": "https://cdn.soccersapi.com/images/soccer/teams/80/2873.png",
+                        "form": null,
+                        "coach_id": null,
+                        "kit_colors": {
+                            "away_main_color": "#ffffff",
+                            "away_second_color": "#ffffff",
+                            "away_number_color": "#0040ff",
+                            "away_gk_main_color": "#ffff00",
+                            "away_gk_second_color": "#ffff00",
+                            "away_gk_number_color": "#000000"
+                        }
+                    }
+                },
+                "league": {
+                    "id": 1005,
+                    "name": "Tipico Bundesliga",
+                    "type": "",
+                    "country_id": "15",
+                    "country_name": "Austria",
+                    "country_code": "at",
+                    "country_flag": "https://cdn.soccersapi.com/images/countries/30/at.png"
+                },
+                "scores": {
+                    "home_score": null,
+                    "away_score": null,
+                    "ht_score": null,
+                    "ft_score": null,
+                    "et_score": null,
+                    "ps_score": null
+                },
+                "standings": {
+                    "home_position": 0,
+                    "away_position": 0
+                },
+                "assistants": {
+                    "first_assistant_id": null,
+                    "second_assistant_id": null,
+                    "fourth_assistant_id": null
+                },
+                "coverage": {
+                    "has_lineups": 0,
+                    "has_tvs": 1,
+                    "has_standings": 1
+                },
+                "weather_report": null
+            },
+            {
+                "id": 1406441,
+                "status": 0,
+                "status_name": "Notstarted",
+                "status_period": null,
+                "pitch": null,
+                "referee_id": null,
+                "round_id": "139300",
+                "round_name": "16",
+                "season_id": "10512",
+                "season_name": "21/22",
+                "stage_id": "1",
+                "stage_name": "Regular Season",
+                "group_id": "222",
+                "group_name": "Bundesliga",
+                "aggregate_id": null,
+                "winner_team_id": null,
+                "venue_id": "2443",
+                "leg": null,
+                "week": "47",
+                "deleted": "0",
+                "info": null,
+                "attendance": null,
+                "time": {
+                    "datetime": "2021-11-28 16:00:00",
+                    "date": "2021-11-28",
+                    "time": "16:00:00",
+                    "minute": null,
+                    "timestamp": 1638115200,
+                    "timezone": "UTC"
+                },
+                "teams": {
+                    "home": {
+                        "id": 1080,
+                        "name": "SV Ried",
+                        "short_code": "SVR",
+                        "img": "https://cdn.soccersapi.com/images/soccer/teams/80/1080.png",
+                        "form": null,
+                        "coach_id": null,
+                        "kit_colors": {
+                            "home_main_color": "#346767",
+                            "home_second_color": "#008000",
+                            "home_number_color": "#ffffff",
+                            "home_gk_main_color": "#ffff33",
+                            "home_gk_second_color": "#000000",
+                            "home_gk_number_color": "#000000"
+                        }
+                    },
+                    "away": {
+                        "id": 2867,
+                        "name": "Rapid Wien",
+                        "short_code": "SCR",
+                        "img": "https://cdn.soccersapi.com/images/soccer/teams/80/2867.png",
+                        "form": null,
+                        "coach_id": null,
+                        "kit_colors": {
+                            "away_main_color": "#00b336",
+                            "away_second_color": "#fcfcfc",
+                            "away_number_color": "#ffffff",
+                            "away_gk_main_color": "#ff8000",
+                            "away_gk_second_color": "#ff8000",
+                            "away_gk_number_color": "#000000"
+                        }
+                    }
+                },
+                "league": {
+                    "id": 1005,
+                    "name": "Tipico Bundesliga",
+                    "type": "",
+                    "country_id": "15",
+                    "country_name": "Austria",
+                    "country_code": "at",
+                    "country_flag": "https://cdn.soccersapi.com/images/countries/30/at.png"
+                },
+                "scores": {
+                    "home_score": null,
+                    "away_score": null,
+                    "ht_score": null,
+                    "ft_score": null,
+                    "et_score": null,
+                    "ps_score": null
+                },
+                "standings": {
+                    "home_position": 0,
+                    "away_position": 0
+                },
+                "assistants": {
+                    "first_assistant_id": null,
+                    "second_assistant_id": null,
+                    "fourth_assistant_id": null
+                },
+                "coverage": {
+                    "has_lineups": 0,
+                    "has_tvs": 1,
+                    "has_standings": 1
+                },
+                "weather_report": null
+            },
+            {
+                "id": 1406443,
+                "status": 0,
+                "status_name": "Notstarted",
+                "status_period": null,
+                "pitch": null,
+                "referee_id": null,
+                "round_id": "139302",
+                "round_name": "17",
+                "season_id": "10512",
+                "season_name": "21/22",
+                "stage_id": "1",
+                "stage_name": "Regular Season",
+                "group_id": "222",
+                "group_name": "Bundesliga",
+                "aggregate_id": null,
+                "winner_team_id": null,
+                "venue_id": "1430",
+                "leg": null,
+                "week": "48",
+                "deleted": "0",
+                "info": null,
+                "attendance": null,
+                "time": {
+                    "datetime": "2021-12-05 13:30:00",
+                    "date": "2021-12-05",
+                    "time": "13:30:00",
+                    "minute": null,
+                    "timestamp": 1638711000,
+                    "timezone": "UTC"
+                },
+                "teams": {
+                    "home": {
+                        "id": 91,
+                        "name": "LASK",
+                        "short_code": "ASK",
+                        "img": "https://cdn.soccersapi.com/images/soccer/teams/80/91.png",
+                        "form": null,
+                        "coach_id": null,
+                        "kit_colors": {
+                            "home_main_color": "#ffffff",
+                            "home_second_color": "#000000",
+                            "home_number_color": "#000000",
+                            "home_gk_main_color": "#ff6699",
+                            "home_gk_second_color": "#ff66cc",
+                            "home_gk_number_color": "#ffffff"
+                        }
+                    },
+                    "away": {
+                        "id": 1080,
+                        "name": "SV Ried",
+                        "short_code": "SVR",
+                        "img": "https://cdn.soccersapi.com/images/soccer/teams/80/1080.png",
+                        "form": null,
+                        "coach_id": null,
+                        "kit_colors": {
+                            "away_main_color": "#346767",
+                            "away_second_color": "#008000",
+                            "away_number_color": "#ffffff",
+                            "away_gk_main_color": "#ffff33",
+                            "away_gk_second_color": "#000000",
+                            "away_gk_number_color": "#000000"
+                        }
+                    }
+                },
+                "league": {
+                    "id": 1005,
+                    "name": "Tipico Bundesliga",
+                    "type": "",
+                    "country_id": "15",
+                    "country_name": "Austria",
+                    "country_code": "at",
+                    "country_flag": "https://cdn.soccersapi.com/images/countries/30/at.png"
+                },
+                "scores": {
+                    "home_score": null,
+                    "away_score": null,
+                    "ht_score": null,
+                    "ft_score": null,
+                    "et_score": null,
+                    "ps_score": null
+                },
+                "standings": {
+                    "home_position": 0,
+                    "away_position": 0
+                },
+                "assistants": {
+                    "first_assistant_id": null,
+                    "second_assistant_id": null,
+                    "fourth_assistant_id": null
+                },
+                "coverage": {
+                    "has_lineups": 0,
+                    "has_tvs": 1,
+                    "has_standings": 1
+                },
+                "weather_report": null
+            },
+            {
+                "id": 1406451,
+                "status": 17,
+                "status_name": null,
+                "status_period": null,
+                "pitch": null,
+                "referee_id": null,
+                "round_id": "139304",
+                "round_name": "18",
+                "season_id": "10512",
+                "season_name": "21/22",
+                "stage_id": "1",
+                "stage_name": "Regular Season",
+                "group_id": "222",
+                "group_name": "Bundesliga",
+                "aggregate_id": null,
+                "winner_team_id": null,
+                "venue_id": "2443",
+                "leg": null,
+                "week": "49",
+                "deleted": "0",
+                "info": null,
+                "attendance": null,
+                "time": {
+                    "datetime": "2021-12-11 16:00:00",
+                    "date": "2021-12-11",
+                    "time": "16:00:00",
+                    "minute": null,
+                    "timestamp": 1639238400,
+                    "timezone": "UTC"
+                },
+                "teams": {
+                    "home": {
+                        "id": 1080,
+                        "name": "SV Ried",
+                        "short_code": "SVR",
+                        "img": "https://cdn.soccersapi.com/images/soccer/teams/80/1080.png",
+                        "form": null,
+                        "coach_id": null,
+                        "kit_colors": {
+                            "home_main_color": "#346767",
+                            "home_second_color": "#008000",
+                            "home_number_color": "#ffffff",
+                            "home_gk_main_color": "#ffff33",
+                            "home_gk_second_color": "#000000",
+                            "home_gk_number_color": "#000000"
+                        }
+                    },
+                    "away": {
+                        "id": 2876,
+                        "name": "Altach",
+                        "short_code": "ALT",
+                        "img": "https://cdn.soccersapi.com/images/soccer/teams/80/2876.png",
+                        "form": null,
+                        "coach_id": null,
+                        "kit_colors": {
+                            "away_main_color": "#ffffff",
+                            "away_second_color": "#ffffff",
+                            "away_number_color": "#000000",
+                            "away_gk_main_color": "#ff6600",
+                            "away_gk_second_color": "#ff6600",
+                            "away_gk_number_color": "#ffffff"
+                        }
+                    }
+                },
+                "league": {
+                    "id": 1005,
+                    "name": "Tipico Bundesliga",
+                    "type": "",
+                    "country_id": "15",
+                    "country_name": "Austria",
+                    "country_code": "at",
+                    "country_flag": "https://cdn.soccersapi.com/images/countries/30/at.png"
+                },
+                "scores": {
+                    "home_score": null,
+                    "away_score": null,
+                    "ht_score": null,
+                    "ft_score": null,
+                    "et_score": null,
+                    "ps_score": null
+                },
+                "standings": {
+                    "home_position": 0,
+                    "away_position": 0
+                },
+                "assistants": {
+                    "first_assistant_id": null,
+                    "second_assistant_id": null,
+                    "fourth_assistant_id": null
+                },
+                "coverage": {
+                    "has_lineups": 0,
+                    "has_tvs": 1,
+                    "has_standings": 1
+                },
+                "weather_report": null
+            },
+            {
+                "id": 1406454,
+                "status": 17,
+                "status_name": null,
+                "status_period": null,
+                "pitch": null,
+                "referee_id": null,
+                "round_id": "139306",
+                "round_name": "19",
+                "season_id": "10512",
+                "season_name": "21/22",
+                "stage_id": "1",
+                "stage_name": "Regular Season",
+                "group_id": "222",
+                "group_name": "Bundesliga",
+                "aggregate_id": null,
+                "winner_team_id": "2869",
+                "venue_id": "192",
+                "leg": null,
+                "week": "06",
+                "deleted": "0",
+                "info": null,
+                "attendance": null,
+                "time": {
+                    "datetime": "2022-02-12 16:00:00",
+                    "date": "2022-02-12",
+                    "time": "16:00:00",
+                    "minute": null,
+                    "timestamp": 1644681600,
+                    "timezone": "UTC"
+                },
+                "teams": {
+                    "home": {
+                        "id": 2869,
+                        "name": "WAC",
+                        "short_code": "WAC",
+                        "img": "https://cdn.soccersapi.com/images/soccer/teams/80/2869.png",
+                        "form": null,
+                        "coach_id": null,
+                        "kit_colors": {
+                            "home_main_color": "#ffffff",
+                            "home_second_color": "#ffffff",
+                            "home_number_color": "#040404",
+                            "home_gk_main_color": "#0033b1",
+                            "home_gk_second_color": "#161616",
+                            "home_gk_number_color": "#ffffff"
+                        }
+                    },
+                    "away": {
+                        "id": 1080,
+                        "name": "SV Ried",
+                        "short_code": "SVR",
+                        "img": "https://cdn.soccersapi.com/images/soccer/teams/80/1080.png",
+                        "form": null,
+                        "coach_id": null,
+                        "kit_colors": {
+                            "away_main_color": "#346767",
+                            "away_second_color": "#008000",
+                            "away_number_color": "#ffffff",
+                            "away_gk_main_color": "#ffff33",
+                            "away_gk_second_color": "#000000",
+                            "away_gk_number_color": "#000000"
+                        }
+                    }
+                },
+                "league": {
+                    "id": 1005,
+                    "name": "Tipico Bundesliga",
+                    "type": "",
+                    "country_id": "15",
+                    "country_name": "Austria",
+                    "country_code": "at",
+                    "country_flag": "https://cdn.soccersapi.com/images/countries/30/at.png"
+                },
+                "scores": {
+                    "home_score": null,
+                    "away_score": null,
+                    "ht_score": null,
+                    "ft_score": null,
+                    "et_score": null,
+                    "ps_score": null
+                },
+                "standings": {
+                    "home_position": 0,
+                    "away_position": 0
+                },
+                "assistants": {
+                    "first_assistant_id": null,
+                    "second_assistant_id": null,
+                    "fourth_assistant_id": null
+                },
+                "coverage": {
+                    "has_lineups": 0,
+                    "has_tvs": 1,
+                    "has_standings": 1
+                },
+                "weather_report": null
+            },
+            {
+                "id": 1406460,
+                "status": 17,
+                "status_name": null,
+                "status_period": null,
+                "pitch": null,
+                "referee_id": null,
+                "round_id": "139308",
+                "round_name": "20",
+                "season_id": "10512",
+                "season_name": "21/22",
+                "stage_id": "1",
+                "stage_name": "Regular Season",
+                "group_id": "222",
+                "group_name": "Bundesliga",
+                "aggregate_id": null,
+                "winner_team_id": null,
+                "venue_id": "2443",
+                "leg": null,
+                "week": "07",
+                "deleted": "0",
+                "info": null,
+                "attendance": null,
+                "time": {
+                    "datetime": "2022-02-19 16:00:00",
+                    "date": "2022-02-19",
+                    "time": "16:00:00",
+                    "minute": null,
+                    "timestamp": 1645286400,
+                    "timezone": "UTC"
+                },
+                "teams": {
+                    "home": {
+                        "id": 1080,
+                        "name": "SV Ried",
+                        "short_code": "SVR",
+                        "img": "https://cdn.soccersapi.com/images/soccer/teams/80/1080.png",
+                        "form": null,
+                        "coach_id": null,
+                        "kit_colors": {
+                            "home_main_color": "#346767",
+                            "home_second_color": "#008000",
+                            "home_number_color": "#ffffff",
+                            "home_gk_main_color": "#ffff33",
+                            "home_gk_second_color": "#000000",
+                            "home_gk_number_color": "#000000"
+                        }
+                    },
+                    "away": {
+                        "id": 2870,
+                        "name": "Tirol",
+                        "short_code": "WSG",
+                        "img": "https://cdn.soccersapi.com/images/soccer/teams/80/2870.png",
+                        "form": null,
+                        "coach_id": null,
+                        "kit_colors": {
+                            "away_main_color": "#008200",
+                            "away_second_color": "#ffffff",
+                            "away_number_color": "#c0c0c0",
+                            "away_gk_main_color": "#ffff00",
+                            "away_gk_second_color": "#ffff00",
+                            "away_gk_number_color": "#000000"
+                        }
+                    }
+                },
+                "league": {
+                    "id": 1005,
+                    "name": "Tipico Bundesliga",
+                    "type": "",
+                    "country_id": "15",
+                    "country_name": "Austria",
+                    "country_code": "at",
+                    "country_flag": "https://cdn.soccersapi.com/images/countries/30/at.png"
+                },
+                "scores": {
+                    "home_score": null,
+                    "away_score": null,
+                    "ht_score": null,
+                    "ft_score": null,
+                    "et_score": null,
+                    "ps_score": null
+                },
+                "standings": {
+                    "home_position": 0,
+                    "away_position": 0
+                },
+                "assistants": {
+                    "first_assistant_id": null,
+                    "second_assistant_id": null,
+                    "fourth_assistant_id": null
+                },
+                "coverage": {
+                    "has_lineups": 0,
+                    "has_tvs": 1,
+                    "has_standings": 1
+                },
+                "weather_report": null
+            },
+            {
+                "id": 1406467,
+                "status": 17,
+                "status_name": null,
+                "status_period": null,
+                "pitch": null,
+                "referee_id": null,
+                "round_id": "139310",
+                "round_name": "21",
+                "season_id": "10512",
+                "season_name": "21/22",
+                "stage_id": "1",
+                "stage_name": "Regular Season",
+                "group_id": "222",
+                "group_name": "Bundesliga",
+                "aggregate_id": null,
+                "winner_team_id": null,
+                "venue_id": "4569",
+                "leg": null,
+                "week": "08",
+                "deleted": "0",
+                "info": null,
+                "attendance": null,
+                "time": {
+                    "datetime": "2022-02-26 16:00:00",
+                    "date": "2022-02-26",
+                    "time": "16:00:00",
+                    "minute": null,
+                    "timestamp": 1645891200,
+                    "timezone": "UTC"
+                },
+                "teams": {
+                    "home": {
+                        "id": 1081,
+                        "name": "Austria Klagenfurt",
+                        "short_code": "SKA",
+                        "img": "https://cdn.soccersapi.com/images/soccer/teams/80/1081.png",
+                        "form": null,
+                        "coach_id": null,
+                        "kit_colors": {
+                            "home_main_color": "#400080",
+                            "home_second_color": "#3e008a",
+                            "home_number_color": "#ffffff",
+                            "home_gk_main_color": "#ff0000",
+                            "home_gk_second_color": "#ff0000",
+                            "home_gk_number_color": "#000000"
+                        }
+                    },
+                    "away": {
+                        "id": 1080,
+                        "name": "SV Ried",
+                        "short_code": "SVR",
+                        "img": "https://cdn.soccersapi.com/images/soccer/teams/80/1080.png",
+                        "form": null,
+                        "coach_id": null,
+                        "kit_colors": {
+                            "away_main_color": "#346767",
+                            "away_second_color": "#008000",
+                            "away_number_color": "#ffffff",
+                            "away_gk_main_color": "#ffff33",
+                            "away_gk_second_color": "#000000",
+                            "away_gk_number_color": "#000000"
+                        }
+                    }
+                },
+                "league": {
+                    "id": 1005,
+                    "name": "Tipico Bundesliga",
+                    "type": "",
+                    "country_id": "15",
+                    "country_name": "Austria",
+                    "country_code": "at",
+                    "country_flag": "https://cdn.soccersapi.com/images/countries/30/at.png"
+                },
+                "scores": {
+                    "home_score": null,
+                    "away_score": null,
+                    "ht_score": null,
+                    "ft_score": null,
+                    "et_score": null,
+                    "ps_score": null
+                },
+                "standings": {
+                    "home_position": 0,
+                    "away_position": 0
+                },
+                "assistants": {
+                    "first_assistant_id": null,
+                    "second_assistant_id": null,
+                    "fourth_assistant_id": null
+                },
+                "coverage": {
+                    "has_lineups": 0,
+                    "has_tvs": 1,
+                    "has_standings": 1
+                },
+                "weather_report": null
+            },
+            {
+                "id": 1406474,
+                "status": 17,
+                "status_name": null,
+                "status_period": null,
+                "pitch": null,
+                "referee_id": null,
+                "round_id": "139312",
+                "round_name": "22",
+                "season_id": "10512",
+                "season_name": "21/22",
+                "stage_id": "1",
+                "stage_name": "Regular Season",
+                "group_id": "222",
+                "group_name": "Bundesliga",
+                "aggregate_id": null,
+                "winner_team_id": null,
+                "venue_id": "2443",
+                "leg": null,
+                "week": "09",
+                "deleted": "0",
+                "info": null,
+                "attendance": null,
+                "time": {
+                    "datetime": "2022-03-05 16:00:00",
+                    "date": "2022-03-05",
+                    "time": "16:00:00",
+                    "minute": null,
+                    "timestamp": 1646496000,
+                    "timezone": "UTC"
+                },
+                "teams": {
+                    "home": {
+                        "id": 1080,
+                        "name": "SV Ried",
+                        "short_code": "SVR",
+                        "img": "https://cdn.soccersapi.com/images/soccer/teams/80/1080.png",
+                        "form": null,
+                        "coach_id": null,
+                        "kit_colors": {
+                            "home_main_color": "#346767",
+                            "home_second_color": "#008000",
+                            "home_number_color": "#ffffff",
+                            "home_gk_main_color": "#ffff33",
+                            "home_gk_second_color": "#000000",
+                            "home_gk_number_color": "#000000"
+                        }
+                    },
+                    "away": {
+                        "id": 2874,
+                        "name": "Sturm Graz",
+                        "short_code": "STU",
+                        "img": "https://cdn.soccersapi.com/images/soccer/teams/80/2874.png",
+                        "form": null,
+                        "coach_id": null,
+                        "kit_colors": {
+                            "away_main_color": "#ffffff",
+                            "away_second_color": "#000000",
+                            "away_number_color": "#000000",
+                            "away_gk_main_color": "#fa1dad",
+                            "away_gk_second_color": "#000000",
+                            "away_gk_number_color": "#000000"
+                        }
+                    }
+                },
+                "league": {
+                    "id": 1005,
+                    "name": "Tipico Bundesliga",
+                    "type": "",
+                    "country_id": "15",
+                    "country_name": "Austria",
+                    "country_code": "at",
+                    "country_flag": "https://cdn.soccersapi.com/images/countries/30/at.png"
+                },
+                "scores": {
+                    "home_score": null,
+                    "away_score": null,
+                    "ht_score": null,
+                    "ft_score": null,
+                    "et_score": null,
+                    "ps_score": null
+                },
+                "standings": {
+                    "home_position": 0,
+                    "away_position": 0
+                },
+                "assistants": {
+                    "first_assistant_id": null,
+                    "second_assistant_id": null,
+                    "fourth_assistant_id": null
+                },
+                "coverage": {
+                    "has_lineups": 0,
+                    "has_tvs": 1,
+                    "has_standings": 1
+                },
+                "weather_report": null
+            }
+        ],
+        "current": [],
+        "last": [
+            {
+                "id": 1406427,
+                "status": 3,
+                "status_name": "Finished",
+                "status_period": null,
+                "pitch": null,
+                "referee_id": null,
+                "round_id": "139298",
+                "round_name": "14",
+                "season_id": "10512",
+                "season_name": "21/22",
+                "stage_id": "1",
+                "stage_name": "Regular Season",
+                "group_id": "222",
+                "group_name": "Bundesliga",
+                "aggregate_id": null,
+                "winner_team_id": "1080",
+                "venue_id": "1640",
+                "leg": null,
+                "week": "44",
+                "deleted": "0",
+                "info": null,
+                "attendance": null,
+                "time": {
+                    "datetime": "2021-11-06 16:00:00",
+                    "date": "2021-11-06",
+                    "time": "16:00:00",
+                    "minute": 90,
+                    "timestamp": 1636214400,
+                    "timezone": "UTC"
+                },
+                "teams": {
+                    "home": {
+                        "id": 2868,
+                        "name": "Admira Wacker",
+                        "short_code": "ADM",
+                        "img": "https://cdn.soccersapi.com/images/soccer/teams/80/2868.png",
+                        "form": "4-2-3-1",
+                        "coach_id": "2515",
+                        "kit_colors": {
+                            "home_main_color": "#000000",
+                            "home_second_color": "#7a7a7a",
+                            "home_number_color": "#ffffff",
+                            "home_gk_main_color": "#669900",
+                            "home_gk_second_color": "#000000",
+                            "home_gk_number_color": "#ffffff"
+                        }
+                    },
+                    "away": {
+                        "id": 1080,
+                        "name": "SV Ried",
+                        "short_code": "SVR",
+                        "img": "https://cdn.soccersapi.com/images/soccer/teams/80/1080.png",
+                        "form": "3-4-3",
+                        "coach_id": "5412",
+                        "kit_colors": {
+                            "away_main_color": "#d20000",
+                            "away_second_color": "#2d675f",
+                            "away_number_color": "#ffffff",
+                            "away_gk_main_color": "#ffff33",
+                            "away_gk_second_color": "#000000",
+                            "away_gk_number_color": "#000000"
+                        }
+                    }
+                },
+                "league": {
+                    "id": 1005,
+                    "name": "Tipico Bundesliga",
+                    "type": "",
+                    "country_id": "15",
+                    "country_name": "Austria",
+                    "country_code": "at",
+                    "country_flag": "https://cdn.soccersapi.com/images/countries/30/at.png"
+                },
+                "scores": {
+                    "home_score": "1",
+                    "away_score": "2",
+                    "ht_score": "1-0",
+                    "ft_score": "1-2",
+                    "et_score": null,
+                    "ps_score": null
+                },
+                "standings": {
+                    "home_position": 0,
+                    "away_position": 0
+                },
+                "assistants": {
+                    "first_assistant_id": null,
+                    "second_assistant_id": null,
+                    "fourth_assistant_id": null
+                },
+                "coverage": {
+                    "has_lineups": 1,
+                    "has_tvs": 1,
+                    "has_standings": 1
+                },
+                "weather_report": {
+                    "desc": "clear/sunny",
+                    "temp": {
+                        "celsius": 7,
+                        "fahrenheit": 44.6
+                    },
+                    "wind": {
+                        "kmph": 7,
+                        "miles": 4.34,
+                        "direction": "ESE"
+                    },
+                    "humidity_percent": 67,
+                    "pressure": 1033
+                }
+            },
+            {
+                "id": 1406422,
+                "status": 3,
+                "status_name": "Finished",
+                "status_period": null,
+                "pitch": null,
+                "referee_id": null,
+                "round_id": "139297",
+                "round_name": "13",
+                "season_id": "10512",
+                "season_name": "21/22",
+                "stage_id": "1",
+                "stage_name": "Regular Season",
+                "group_id": "222",
+                "group_name": "Bundesliga",
+                "aggregate_id": null,
+                "winner_team_id": null,
+                "venue_id": "2443",
+                "leg": null,
+                "week": "43",
+                "deleted": "0",
+                "info": null,
+                "attendance": null,
+                "time": {
+                    "datetime": "2021-10-30 15:00:00",
+                    "date": "2021-10-30",
+                    "time": "15:00:00",
+                    "minute": 90,
+                    "timestamp": 1635606000,
+                    "timezone": "UTC"
+                },
+                "teams": {
+                    "home": {
+                        "id": 1080,
+                        "name": "SV Ried",
+                        "short_code": "SVR",
+                        "img": "https://cdn.soccersapi.com/images/soccer/teams/80/1080.png",
+                        "form": "3-4-3",
+                        "coach_id": "5412",
+                        "kit_colors": {
+                            "home_main_color": "#0c6655",
+                            "home_second_color": "#0c6655",
+                            "home_number_color": "#ffffff",
+                            "home_gk_main_color": "#ffff33",
+                            "home_gk_second_color": "#000000",
+                            "home_gk_number_color": "#000000"
+                        }
+                    },
+                    "away": {
+                        "id": 104,
+                        "name": "FC Salzburg",
+                        "short_code": "SAL",
+                        "img": "https://cdn.soccersapi.com/images/soccer/teams/80/104.png",
+                        "form": "4-3-1-2",
+                        "coach_id": "6882",
+                        "kit_colors": {
+                            "away_main_color": "#ff0000",
+                            "away_second_color": "#ff0000",
+                            "away_number_color": "#ffffff",
+                            "away_gk_main_color": "#ffcc00",
+                            "away_gk_second_color": "#ffcc00",
+                            "away_gk_number_color": "#000000"
+                        }
+                    }
+                },
+                "league": {
+                    "id": 1005,
+                    "name": "Tipico Bundesliga",
+                    "type": "",
+                    "country_id": "15",
+                    "country_name": "Austria",
+                    "country_code": "at",
+                    "country_flag": "https://cdn.soccersapi.com/images/countries/30/at.png"
+                },
+                "scores": {
+                    "home_score": "2",
+                    "away_score": "2",
+                    "ht_score": "1-0",
+                    "ft_score": "2-2",
+                    "et_score": null,
+                    "ps_score": null
+                },
+                "standings": {
+                    "home_position": 0,
+                    "away_position": 0
+                },
+                "assistants": {
+                    "first_assistant_id": null,
+                    "second_assistant_id": null,
+                    "fourth_assistant_id": null
+                },
+                "coverage": {
+                    "has_lineups": 1,
+                    "has_tvs": 1,
+                    "has_standings": 1
+                },
+                "weather_report": {
+                    "desc": "clear/sunny",
+                    "temp": {
+                        "celsius": 12,
+                        "fahrenheit": 53.6
+                    },
+                    "wind": {
+                        "kmph": 16,
+                        "miles": 9.92,
+                        "direction": "ENE"
+                    },
+                    "humidity_percent": 55,
+                    "pressure": 1010
+                }
+            },
+            {
+                "id": 1406416,
+                "status": 3,
+                "status_name": "Finished",
+                "status_period": null,
+                "pitch": null,
+                "referee_id": null,
+                "round_id": "139296",
+                "round_name": "12",
+                "season_id": "10512",
+                "season_name": "21/22",
+                "stage_id": "1",
+                "stage_name": "Regular Season",
+                "group_id": "222",
+                "group_name": "Bundesliga",
+                "aggregate_id": null,
+                "winner_team_id": "2871",
+                "venue_id": "1957",
+                "leg": null,
+                "week": "42",
+                "deleted": "0",
+                "info": null,
+                "attendance": null,
+                "time": {
+                    "datetime": "2021-10-23 15:00:00",
+                    "date": "2021-10-23",
+                    "time": "15:00:00",
+                    "minute": 90,
+                    "timestamp": 1635001200,
+                    "timezone": "UTC"
+                },
+                "teams": {
+                    "home": {
+                        "id": 2871,
+                        "name": "Austria Wien",
+                        "short_code": "FAK",
+                        "img": "https://cdn.soccersapi.com/images/soccer/teams/80/2871.png",
+                        "form": "4-3-3",
+                        "coach_id": "7314",
+                        "kit_colors": {
+                            "home_main_color": "#660099",
+                            "home_second_color": "#660099",
+                            "home_number_color": "#ffffff",
+                            "home_gk_main_color": "#ffff00",
+                            "home_gk_second_color": "#ffff00",
+                            "home_gk_number_color": "#000000"
+                        }
+                    },
+                    "away": {
+                        "id": 1080,
+                        "name": "SV Ried",
+                        "short_code": "SVR",
+                        "img": "https://cdn.soccersapi.com/images/soccer/teams/80/1080.png",
+                        "form": "3-4-3",
+                        "coach_id": "5412",
+                        "kit_colors": {
+                            "away_main_color": "#d20000",
+                            "away_second_color": "#2d675f",
+                            "away_number_color": "#ffffff",
+                            "away_gk_main_color": "#ffff33",
+                            "away_gk_second_color": "#000000",
+                            "away_gk_number_color": "#000000"
+                        }
+                    }
+                },
+                "league": {
+                    "id": 1005,
+                    "name": "Tipico Bundesliga",
+                    "type": "",
+                    "country_id": "15",
+                    "country_name": "Austria",
+                    "country_code": "at",
+                    "country_flag": "https://cdn.soccersapi.com/images/countries/30/at.png"
+                },
+                "scores": {
+                    "home_score": "4",
+                    "away_score": "1",
+                    "ht_score": "2-1",
+                    "ft_score": "4-1",
+                    "et_score": null,
+                    "ps_score": null
+                },
+                "standings": {
+                    "home_position": 0,
+                    "away_position": 0
+                },
+                "assistants": {
+                    "first_assistant_id": null,
+                    "second_assistant_id": null,
+                    "fourth_assistant_id": null
+                },
+                "coverage": {
+                    "has_lineups": 1,
+                    "has_tvs": 0,
+                    "has_standings": 1
+                },
+                "weather_report": {
+                    "desc": "partly cloudy",
+                    "temp": {
+                        "celsius": 13,
+                        "fahrenheit": 55.4
+                    },
+                    "wind": {
+                        "kmph": 21,
+                        "miles": 13.02,
+                        "direction": "WNW"
+                    },
+                    "humidity_percent": 56,
+                    "pressure": 1025
+                }
+            },
+            {
+                "id": 1406408,
+                "status": 3,
+                "status_name": "Finished",
+                "status_period": null,
+                "pitch": null,
+                "referee_id": null,
+                "round_id": "139295",
+                "round_name": "11",
+                "season_id": "10512",
+                "season_name": "21/22",
+                "stage_id": "1",
+                "stage_name": "Regular Season",
+                "group_id": "222",
+                "group_name": "Bundesliga",
+                "aggregate_id": null,
+                "winner_team_id": "2874",
+                "venue_id": "792",
+                "leg": null,
+                "week": "41",
+                "deleted": "0",
+                "info": null,
+                "attendance": null,
+                "time": {
+                    "datetime": "2021-10-17 15:00:00",
+                    "date": "2021-10-17",
+                    "time": "15:00:00",
+                    "minute": 90,
+                    "timestamp": 1634482800,
+                    "timezone": "UTC"
+                },
+                "teams": {
+                    "home": {
+                        "id": 2874,
+                        "name": "Sturm Graz",
+                        "short_code": "STU",
+                        "img": "https://cdn.soccersapi.com/images/soccer/teams/80/2874.png",
+                        "form": "4-3-1-2",
+                        "coach_id": "180",
+                        "kit_colors": {
+                            "home_main_color": "#5c5c5c",
+                            "home_second_color": "#000000",
+                            "home_number_color": "#ffffff",
+                            "home_gk_main_color": "#fa1dad",
+                            "home_gk_second_color": "#000000",
+                            "home_gk_number_color": "#000000"
+                        }
+                    },
+                    "away": {
+                        "id": 1080,
+                        "name": "SV Ried",
+                        "short_code": "SVR",
+                        "img": "https://cdn.soccersapi.com/images/soccer/teams/80/1080.png",
+                        "form": "3-4-3",
+                        "coach_id": "5412",
+                        "kit_colors": {
+                            "away_main_color": "#d20000",
+                            "away_second_color": "#2d675f",
+                            "away_number_color": "#ffffff",
+                            "away_gk_main_color": "#ffff33",
+                            "away_gk_second_color": "#000000",
+                            "away_gk_number_color": "#000000"
+                        }
+                    }
+                },
+                "league": {
+                    "id": 1005,
+                    "name": "Tipico Bundesliga",
+                    "type": "",
+                    "country_id": "15",
+                    "country_name": "Austria",
+                    "country_code": "at",
+                    "country_flag": "https://cdn.soccersapi.com/images/countries/30/at.png"
+                },
+                "scores": {
+                    "home_score": "1",
+                    "away_score": "0",
+                    "ht_score": "1-0",
+                    "ft_score": "1-0",
+                    "et_score": null,
+                    "ps_score": null
+                },
+                "standings": {
+                    "home_position": 0,
+                    "away_position": 0
+                },
+                "assistants": {
+                    "first_assistant_id": null,
+                    "second_assistant_id": null,
+                    "fourth_assistant_id": null
+                },
+                "coverage": {
+                    "has_lineups": 1,
+                    "has_tvs": 1,
+                    "has_standings": 1
+                },
+                "weather_report": {
+                    "desc": "partly cloudy",
+                    "temp": {
+                        "celsius": 16,
+                        "fahrenheit": 60.8
+                    },
+                    "wind": {
+                        "kmph": 8,
+                        "miles": 4.96,
+                        "direction": "SSE"
+                    },
+                    "humidity_percent": 60,
+                    "pressure": 1023
+                }
+            },
+            {
+                "id": 1406401,
+                "status": 3,
+                "status_name": "Finished",
+                "status_period": null,
+                "pitch": null,
+                "referee_id": null,
+                "round_id": "139294",
+                "round_name": "10",
+                "season_id": "10512",
+                "season_name": "21/22",
+                "stage_id": "1",
+                "stage_name": "Regular Season",
+                "group_id": "222",
+                "group_name": "Bundesliga",
+                "aggregate_id": null,
+                "winner_team_id": null,
+                "venue_id": "2443",
+                "leg": null,
+                "week": "39",
+                "deleted": "0",
+                "info": null,
+                "attendance": null,
+                "time": {
+                    "datetime": "2021-10-02 15:00:00",
+                    "date": "2021-10-02",
+                    "time": "15:00:00",
+                    "minute": 90,
+                    "timestamp": 1633186800,
+                    "timezone": "UTC"
+                },
+                "teams": {
+                    "home": {
+                        "id": 1080,
+                        "name": "SV Ried",
+                        "short_code": "SVR",
+                        "img": "https://cdn.soccersapi.com/images/soccer/teams/80/1080.png",
+                        "form": "3-4-2-1",
+                        "coach_id": "5412",
+                        "kit_colors": {
+                            "home_main_color": "#0c6655",
+                            "home_second_color": "#0c6655",
+                            "home_number_color": "#ffffff",
+                            "home_gk_main_color": "#ffff33",
+                            "home_gk_second_color": "#000000",
+                            "home_gk_number_color": "#000000"
+                        }
+                    },
+                    "away": {
+                        "id": 1081,
+                        "name": "Austria Klagenfurt",
+                        "short_code": "SKA",
+                        "img": "https://cdn.soccersapi.com/images/soccer/teams/80/1081.png",
+                        "form": "4-2-3-1",
+                        "coach_id": "3973",
+                        "kit_colors": {
+                            "away_main_color": "#ffffff",
+                            "away_second_color": "#660099",
+                            "away_number_color": "#660099",
+                            "away_gk_main_color": "#ff0000",
+                            "away_gk_second_color": "#ff0000",
+                            "away_gk_number_color": "#000000"
+                        }
+                    }
+                },
+                "league": {
+                    "id": 1005,
+                    "name": "Tipico Bundesliga",
+                    "type": "",
+                    "country_id": "15",
+                    "country_name": "Austria",
+                    "country_code": "at",
+                    "country_flag": "https://cdn.soccersapi.com/images/countries/30/at.png"
+                },
+                "scores": {
+                    "home_score": "1",
+                    "away_score": "1",
+                    "ht_score": "1-0",
+                    "ft_score": "1-1",
+                    "et_score": null,
+                    "ps_score": null
+                },
+                "standings": {
+                    "home_position": 0,
+                    "away_position": 0
+                },
+                "assistants": {
+                    "first_assistant_id": null,
+                    "second_assistant_id": null,
+                    "fourth_assistant_id": null
+                },
+                "coverage": {
+                    "has_lineups": 1,
+                    "has_tvs": 1,
+                    "has_standings": 1
+                },
+                "weather_report": {
+                    "desc": "clear/sunny",
+                    "temp": {
+                        "celsius": 22,
+                        "fahrenheit": 71.6
+                    },
+                    "wind": {
+                        "kmph": 12,
+                        "miles": 7.44,
+                        "direction": "NNE"
+                    },
+                    "humidity_percent": 47,
+                    "pressure": 1016
+                }
+            },
+            {
+                "id": 1406396,
+                "status": 3,
+                "status_name": "Finished",
+                "status_period": null,
+                "pitch": null,
+                "referee_id": null,
+                "round_id": "139293",
+                "round_name": "9",
+                "season_id": "10512",
+                "season_name": "21/22",
+                "stage_id": "1",
+                "stage_name": "Regular Season",
+                "group_id": "222",
+                "group_name": "Bundesliga",
+                "aggregate_id": null,
+                "winner_team_id": "2870",
+                "venue_id": "1425",
+                "leg": null,
+                "week": "38",
+                "deleted": "0",
+                "info": null,
+                "attendance": null,
+                "time": {
+                    "datetime": "2021-09-25 15:00:00",
+                    "date": "2021-09-25",
+                    "time": "15:00:00",
+                    "minute": 90,
+                    "timestamp": 1632582000,
+                    "timezone": "UTC"
+                },
+                "teams": {
+                    "home": {
+                        "id": 2870,
+                        "name": "Tirol",
+                        "short_code": "WSG",
+                        "img": "https://cdn.soccersapi.com/images/soccer/teams/80/2870.png",
+                        "form": "4-2-3-1",
+                        "coach_id": "701",
+                        "kit_colors": {
+                            "home_main_color": "#ffffff",
+                            "home_second_color": "#ffffff",
+                            "home_number_color": "#04b701",
+                            "home_gk_main_color": "#ffff00",
+                            "home_gk_second_color": "#ffff00",
+                            "home_gk_number_color": "#000000"
+                        }
+                    },
+                    "away": {
+                        "id": 1080,
+                        "name": "SV Ried",
+                        "short_code": "SVR",
+                        "img": "https://cdn.soccersapi.com/images/soccer/teams/80/1080.png",
+                        "form": "5-3-2",
+                        "coach_id": "5412",
+                        "kit_colors": {
+                            "away_main_color": "#d20000",
+                            "away_second_color": "#2d675f",
+                            "away_number_color": "#ffffff",
+                            "away_gk_main_color": "#ffff33",
+                            "away_gk_second_color": "#000000",
+                            "away_gk_number_color": "#000000"
+                        }
+                    }
+                },
+                "league": {
+                    "id": 1005,
+                    "name": "Tipico Bundesliga",
+                    "type": "",
+                    "country_id": "15",
+                    "country_name": "Austria",
+                    "country_code": "at",
+                    "country_flag": "https://cdn.soccersapi.com/images/countries/30/at.png"
+                },
+                "scores": {
+                    "home_score": "4",
+                    "away_score": "2",
+                    "ht_score": "3-0",
+                    "ft_score": "4-2",
+                    "et_score": null,
+                    "ps_score": null
+                },
+                "standings": {
+                    "home_position": 0,
+                    "away_position": 0
+                },
+                "assistants": {
+                    "first_assistant_id": null,
+                    "second_assistant_id": null,
+                    "fourth_assistant_id": null
+                },
+                "coverage": {
+                    "has_lineups": 1,
+                    "has_tvs": 1,
+                    "has_standings": 1
+                },
+                "weather_report": {
+                    "desc": "clear/sunny",
+                    "temp": {
+                        "celsius": 24,
+                        "fahrenheit": 75.2
+                    },
+                    "wind": {
+                        "kmph": 9,
+                        "miles": 5.58,
+                        "direction": "E"
+                    },
+                    "humidity_percent": 52,
+                    "pressure": 1012
+                }
+            },
+            {
+                "id": 1406388,
+                "status": 3,
+                "status_name": "Finished",
+                "status_period": null,
+                "pitch": null,
+                "referee_id": null,
+                "round_id": "139292",
+                "round_name": "8",
+                "season_id": "10512",
+                "season_name": "21/22",
+                "stage_id": "1",
+                "stage_name": "Regular Season",
+                "group_id": "222",
+                "group_name": "Bundesliga",
+                "aggregate_id": null,
+                "winner_team_id": null,
+                "venue_id": "2443",
+                "leg": null,
+                "week": "37",
+                "deleted": "0",
+                "info": null,
+                "attendance": null,
+                "time": {
+                    "datetime": "2021-09-18 15:00:00",
+                    "date": "2021-09-18",
+                    "time": "15:00:00",
+                    "minute": null,
+                    "timestamp": 1631977200,
+                    "timezone": "UTC"
+                },
+                "teams": {
+                    "home": {
+                        "id": 1080,
+                        "name": "SV Ried",
+                        "short_code": "SVR",
+                        "img": "https://cdn.soccersapi.com/images/soccer/teams/80/1080.png",
+                        "form": "5-3-2",
+                        "coach_id": "5412",
+                        "kit_colors": {
+                            "home_main_color": "#0c6655",
+                            "home_second_color": "#0c6655",
+                            "home_number_color": "#ffffff",
+                            "home_gk_main_color": "#ffff33",
+                            "home_gk_second_color": "#000000",
+                            "home_gk_number_color": "#000000"
+                        }
+                    },
+                    "away": {
+                        "id": 2869,
+                        "name": "WAC",
+                        "short_code": "WAC",
+                        "img": "https://cdn.soccersapi.com/images/soccer/teams/80/2869.png",
+                        "form": "4-3-1-2",
+                        "coach_id": "4493",
+                        "kit_colors": {
+                            "away_main_color": "#90aed6",
+                            "away_second_color": "#90aed6",
+                            "away_number_color": "#000000",
+                            "away_gk_main_color": "#0033b1",
+                            "away_gk_second_color": "#161616",
+                            "away_gk_number_color": "#ffffff"
+                        }
+                    }
+                },
+                "league": {
+                    "id": 1005,
+                    "name": "Tipico Bundesliga",
+                    "type": "",
+                    "country_id": "15",
+                    "country_name": "Austria",
+                    "country_code": "at",
+                    "country_flag": "https://cdn.soccersapi.com/images/countries/30/at.png"
+                },
+                "scores": {
+                    "home_score": "3",
+                    "away_score": "3",
+                    "ht_score": "0-2",
+                    "ft_score": "3-3",
+                    "et_score": null,
+                    "ps_score": null
+                },
+                "standings": {
+                    "home_position": 0,
+                    "away_position": 0
+                },
+                "assistants": {
+                    "first_assistant_id": null,
+                    "second_assistant_id": null,
+                    "fourth_assistant_id": null
+                },
+                "coverage": {
+                    "has_lineups": 1,
+                    "has_tvs": 1,
+                    "has_standings": 1
+                },
+                "weather_report": {
+                    "desc": "overcast",
+                    "temp": {
+                        "celsius": 19,
+                        "fahrenheit": 66.2
+                    },
+                    "wind": {
+                        "kmph": 12,
+                        "miles": 7.44,
+                        "direction": "NW"
+                    },
+                    "humidity_percent": 66,
+                    "pressure": 1020
+                }
+            },
+            {
+                "id": 1406385,
+                "status": 3,
+                "status_name": "Finished",
+                "status_period": null,
+                "pitch": null,
+                "referee_id": null,
+                "round_id": "139291",
+                "round_name": "7",
+                "season_id": "10512",
+                "season_name": "21/22",
+                "stage_id": "1",
+                "stage_name": "Regular Season",
+                "group_id": "222",
+                "group_name": "Bundesliga",
+                "aggregate_id": null,
+                "winner_team_id": null,
+                "venue_id": "191",
+                "leg": null,
+                "week": "36",
+                "deleted": "0",
+                "info": null,
+                "attendance": null,
+                "time": {
+                    "datetime": "2021-09-12 12:30:00",
+                    "date": "2021-09-12",
+                    "time": "12:30:00",
+                    "minute": null,
+                    "timestamp": 1631449800,
+                    "timezone": "UTC"
+                },
+                "teams": {
+                    "home": {
+                        "id": 2876,
+                        "name": "Altach",
+                        "short_code": "ALT",
+                        "img": "https://cdn.soccersapi.com/images/soccer/teams/80/2876.png",
+                        "form": "3-4-1-2",
+                        "coach_id": "3613",
+                        "kit_colors": {
+                            "home_main_color": "#ffffff",
+                            "home_second_color": "#ffffff",
+                            "home_number_color": "#000000",
+                            "home_gk_main_color": "#ff6600",
+                            "home_gk_second_color": "#ff6600",
+                            "home_gk_number_color": "#ffffff"
+                        }
+                    },
+                    "away": {
+                        "id": 1080,
+                        "name": "SV Ried",
+                        "short_code": "SVR",
+                        "img": "https://cdn.soccersapi.com/images/soccer/teams/80/1080.png",
+                        "form": "5-3-2",
+                        "coach_id": "5412",
+                        "kit_colors": {
+                            "away_main_color": "#d20000",
+                            "away_second_color": "#2d675f",
+                            "away_number_color": "#ffffff",
+                            "away_gk_main_color": "#ffff33",
+                            "away_gk_second_color": "#000000",
+                            "away_gk_number_color": "#000000"
+                        }
+                    }
+                },
+                "league": {
+                    "id": 1005,
+                    "name": "Tipico Bundesliga",
+                    "type": "",
+                    "country_id": "15",
+                    "country_name": "Austria",
+                    "country_code": "at",
+                    "country_flag": "https://cdn.soccersapi.com/images/countries/30/at.png"
+                },
+                "scores": {
+                    "home_score": "1",
+                    "away_score": "1",
+                    "ht_score": "1-1",
+                    "ft_score": "1-1",
+                    "et_score": null,
+                    "ps_score": null
+                },
+                "standings": {
+                    "home_position": 0,
+                    "away_position": 0
+                },
+                "assistants": {
+                    "first_assistant_id": null,
+                    "second_assistant_id": null,
+                    "fourth_assistant_id": null
+                },
+                "coverage": {
+                    "has_lineups": 1,
+                    "has_tvs": 1,
+                    "has_standings": 1
+                },
+                "weather_report": {
+                    "desc": "partly cloudy",
+                    "temp": {
+                        "celsius": 20,
+                        "fahrenheit": 68
+                    },
+                    "wind": {
+                        "kmph": 14,
+                        "miles": 8.68,
+                        "direction": "W"
+                    },
+                    "humidity_percent": 85,
+                    "pressure": 1020
+                }
+            },
+            {
+                "id": 1406379,
+                "status": 3,
+                "status_name": "Finished",
+                "status_period": null,
+                "pitch": null,
+                "referee_id": null,
+                "round_id": "139290",
+                "round_name": "6",
+                "season_id": "10512",
+                "season_name": "21/22",
+                "stage_id": "1",
+                "stage_name": "Regular Season",
+                "group_id": "222",
+                "group_name": "Bundesliga",
+                "aggregate_id": null,
+                "winner_team_id": "1080",
+                "venue_id": "2443",
+                "leg": null,
+                "week": "34",
+                "deleted": "0",
+                "info": null,
+                "attendance": null,
+                "time": {
+                    "datetime": "2021-08-29 15:00:00",
+                    "date": "2021-08-29",
+                    "time": "15:00:00",
+                    "minute": null,
+                    "timestamp": 1630249200,
+                    "timezone": "UTC"
+                },
+                "teams": {
+                    "home": {
+                        "id": 1080,
+                        "name": "SV Ried",
+                        "short_code": "SVR",
+                        "img": "https://cdn.soccersapi.com/images/soccer/teams/80/1080.png",
+                        "form": "3-4-3",
+                        "coach_id": "5412",
+                        "kit_colors": {
+                            "home_main_color": "#0c6655",
+                            "home_second_color": "#0c6655",
+                            "home_number_color": "#ffffff",
+                            "home_gk_main_color": "#ffff33",
+                            "home_gk_second_color": "#000000",
+                            "home_gk_number_color": "#000000"
+                        }
+                    },
+                    "away": {
+                        "id": 91,
+                        "name": "LASK",
+                        "short_code": "ASK",
+                        "img": "https://cdn.soccersapi.com/images/soccer/teams/80/91.png",
+                        "form": "3-4-3",
+                        "coach_id": "2684",
+                        "kit_colors": {
+                            "away_main_color": "#ffffff",
+                            "away_second_color": "#000000",
+                            "away_number_color": "#000000",
+                            "away_gk_main_color": "#ff6699",
+                            "away_gk_second_color": "#ff66cc",
+                            "away_gk_number_color": "#ffffff"
+                        }
+                    }
+                },
+                "league": {
+                    "id": 1005,
+                    "name": "Tipico Bundesliga",
+                    "type": "",
+                    "country_id": "15",
+                    "country_name": "Austria",
+                    "country_code": "at",
+                    "country_flag": "https://cdn.soccersapi.com/images/countries/30/at.png"
+                },
+                "scores": {
+                    "home_score": "1",
+                    "away_score": "0",
+                    "ht_score": "1-0",
+                    "ft_score": "1-0",
+                    "et_score": null,
+                    "ps_score": null
+                },
+                "standings": {
+                    "home_position": 0,
+                    "away_position": 0
+                },
+                "assistants": {
+                    "first_assistant_id": null,
+                    "second_assistant_id": null,
+                    "fourth_assistant_id": null
+                },
+                "coverage": {
+                    "has_lineups": 1,
+                    "has_tvs": 1,
+                    "has_standings": 1
+                },
+                "weather_report": {
+                    "desc": "moderate rain",
+                    "temp": {
+                        "celsius": 17,
+                        "fahrenheit": 62.6
+                    },
+                    "wind": {
+                        "kmph": 18,
+                        "miles": 11.16,
+                        "direction": "W"
+                    },
+                    "humidity_percent": 61,
+                    "pressure": 1016
+                }
+            },
+            {
+                "id": 1406371,
+                "status": 3,
+                "status_name": "Finished",
+                "status_period": null,
+                "pitch": null,
+                "referee_id": null,
+                "round_id": "139289",
+                "round_name": "5",
+                "season_id": "10512",
+                "season_name": "21/22",
+                "stage_id": "1",
+                "stage_name": "Regular Season",
+                "group_id": "222",
+                "group_name": "Bundesliga",
+                "aggregate_id": null,
+                "winner_team_id": "2867",
+                "venue_id": "794",
+                "leg": null,
+                "week": "33",
+                "deleted": "0",
+                "info": null,
+                "attendance": null,
+                "time": {
+                    "datetime": "2021-08-22 15:00:00",
+                    "date": "2021-08-22",
+                    "time": "15:00:00",
+                    "minute": null,
+                    "timestamp": 1629644400,
+                    "timezone": "UTC"
+                },
+                "teams": {
+                    "home": {
+                        "id": 2867,
+                        "name": "Rapid Wien",
+                        "short_code": "SCR",
+                        "img": "https://cdn.soccersapi.com/images/soccer/teams/80/2867.png",
+                        "form": "4-2-3-1",
+                        "coach_id": null,
+                        "kit_colors": {
+                            "home_main_color": "#ffffff",
+                            "home_second_color": "#fcfcfc",
+                            "home_number_color": "#01b20d",
+                            "home_gk_main_color": "#ff8000",
+                            "home_gk_second_color": "#ff8000",
+                            "home_gk_number_color": "#000000"
+                        }
+                    },
+                    "away": {
+                        "id": 1080,
+                        "name": "SV Ried",
+                        "short_code": "SVR",
+                        "img": "https://cdn.soccersapi.com/images/soccer/teams/80/1080.png",
+                        "form": "3-4-3",
+                        "coach_id": null,
+                        "kit_colors": {
+                            "away_main_color": "#d20000",
+                            "away_second_color": "#2d675f",
+                            "away_number_color": "#ffffff",
+                            "away_gk_main_color": "#ffff33",
+                            "away_gk_second_color": "#000000",
+                            "away_gk_number_color": "#000000"
+                        }
+                    }
+                },
+                "league": {
+                    "id": 1005,
+                    "name": "Tipico Bundesliga",
+                    "type": "",
+                    "country_id": "15",
+                    "country_name": "Austria",
+                    "country_code": "at",
+                    "country_flag": "https://cdn.soccersapi.com/images/countries/30/at.png"
+                },
+                "scores": {
+                    "home_score": "3",
+                    "away_score": "0",
+                    "ht_score": "1-0",
+                    "ft_score": "3-0",
+                    "et_score": null,
+                    "ps_score": null
+                },
+                "standings": {
+                    "home_position": 0,
+                    "away_position": 0
+                },
+                "assistants": {
+                    "first_assistant_id": null,
+                    "second_assistant_id": null,
+                    "fourth_assistant_id": null
+                },
+                "coverage": {
+                    "has_lineups": 1,
+                    "has_tvs": 1,
+                    "has_standings": 1
+                },
+                "weather_report": {
+                    "desc": "partly cloudy",
+                    "temp": {
+                        "celsius": 25,
+                        "fahrenheit": 77
+                    },
+                    "wind": {
+                        "kmph": 9,
+                        "miles": 5.58,
+                        "direction": "NW"
+                    },
+                    "humidity_percent": 63,
+                    "pressure": 1022
+                }
+            },
+            {
+                "id": 1406366,
+                "status": 3,
+                "status_name": "Finished",
+                "status_period": null,
+                "pitch": null,
+                "referee_id": null,
+                "round_id": "139288",
+                "round_name": "4",
+                "season_id": "10512",
+                "season_name": "21/22",
+                "stage_id": "1",
+                "stage_name": "Regular Season",
+                "group_id": "222",
+                "group_name": "Bundesliga",
+                "aggregate_id": null,
+                "winner_team_id": null,
+                "venue_id": "1956",
+                "leg": null,
+                "week": "32",
+                "deleted": "0",
+                "info": null,
+                "attendance": null,
+                "time": {
+                    "datetime": "2021-08-14 15:00:00",
+                    "date": "2021-08-14",
+                    "time": "15:00:00",
+                    "minute": null,
+                    "timestamp": 1628953200,
+                    "timezone": "UTC"
+                },
+                "teams": {
+                    "home": {
+                        "id": 2873,
+                        "name": "Hartberg",
+                        "short_code": "HTB",
+                        "img": "https://cdn.soccersapi.com/images/soccer/teams/80/2873.png",
+                        "form": "4-3-3",
+                        "coach_id": null,
+                        "kit_colors": {
+                            "home_main_color": "#004cff",
+                            "home_second_color": "#004cff",
+                            "home_number_color": "#ffffff",
+                            "home_gk_main_color": "#ffb01f",
+                            "home_gk_second_color": "#ffb01f",
+                            "home_gk_number_color": "#000000"
+                        }
+                    },
+                    "away": {
+                        "id": 1080,
+                        "name": "SV Ried",
+                        "short_code": "SVR",
+                        "img": "https://cdn.soccersapi.com/images/soccer/teams/80/1080.png",
+                        "form": "4-4-2",
+                        "coach_id": null,
+                        "kit_colors": {
+                            "away_main_color": "#0c6655",
+                            "away_second_color": "#0c6655",
+                            "away_number_color": "#ffffff",
+                            "away_gk_main_color": "#ffff33",
+                            "away_gk_second_color": "#000000",
+                            "away_gk_number_color": "#000000"
+                        }
+                    }
+                },
+                "league": {
+                    "id": 1005,
+                    "name": "Tipico Bundesliga",
+                    "type": "",
+                    "country_id": "15",
+                    "country_name": "Austria",
+                    "country_code": "at",
+                    "country_flag": "https://cdn.soccersapi.com/images/countries/30/at.png"
+                },
+                "scores": {
+                    "home_score": "1",
+                    "away_score": "1",
+                    "ht_score": "0-1",
+                    "ft_score": "1-1",
+                    "et_score": null,
+                    "ps_score": null
+                },
+                "standings": {
+                    "home_position": 0,
+                    "away_position": 0
+                },
+                "assistants": {
+                    "first_assistant_id": null,
+                    "second_assistant_id": null,
+                    "fourth_assistant_id": null
+                },
+                "coverage": {
+                    "has_lineups": 1,
+                    "has_tvs": 1,
+                    "has_standings": 1
+                },
+                "weather_report": {
+                    "desc": "partly cloudy",
+                    "temp": {
+                        "celsius": 30,
+                        "fahrenheit": 86
+                    },
+                    "wind": {
+                        "kmph": 10,
+                        "miles": 6.2,
+                        "direction": "SE"
+                    },
+                    "humidity_percent": 47,
+                    "pressure": 1015
+                }
+            },
+            {
+                "id": 1406363,
+                "status": 3,
+                "status_name": "Finished",
+                "status_period": null,
+                "pitch": null,
+                "referee_id": null,
+                "round_id": "139287",
+                "round_name": "3",
+                "season_id": "10512",
+                "season_name": "21/22",
+                "stage_id": "1",
+                "stage_name": "Regular Season",
+                "group_id": "222",
+                "group_name": "Bundesliga",
+                "aggregate_id": null,
+                "winner_team_id": "1080",
+                "venue_id": "2443",
+                "leg": null,
+                "week": "31",
+                "deleted": "0",
+                "info": null,
+                "attendance": null,
+                "time": {
+                    "datetime": "2021-08-07 15:00:00",
+                    "date": "2021-08-07",
+                    "time": "15:00:00",
+                    "minute": null,
+                    "timestamp": 1628348400,
+                    "timezone": "UTC"
+                },
+                "teams": {
+                    "home": {
+                        "id": 1080,
+                        "name": "SV Ried",
+                        "short_code": "SVR",
+                        "img": "https://cdn.soccersapi.com/images/soccer/teams/80/1080.png",
+                        "form": "4-2-3-1",
+                        "coach_id": null,
+                        "kit_colors": {
+                            "home_main_color": "#0c6655",
+                            "home_second_color": "#0c6655",
+                            "home_number_color": "#ffffff",
+                            "home_gk_main_color": "#ffff33",
+                            "home_gk_second_color": "#000000",
+                            "home_gk_number_color": "#000000"
+                        }
+                    },
+                    "away": {
+                        "id": 2868,
+                        "name": "Admira Wacker",
+                        "short_code": "ADM",
+                        "img": "https://cdn.soccersapi.com/images/soccer/teams/80/2868.png",
+                        "form": "3-4-3",
+                        "coach_id": null,
+                        "kit_colors": {
+                            "away_main_color": "#b21c2a",
+                            "away_second_color": "#d23148",
+                            "away_number_color": "#ffffff",
+                            "away_gk_main_color": "#669900",
+                            "away_gk_second_color": "#000000",
+                            "away_gk_number_color": "#ffffff"
+                        }
+                    }
+                },
+                "league": {
+                    "id": 1005,
+                    "name": "Tipico Bundesliga",
+                    "type": "",
+                    "country_id": "15",
+                    "country_name": "Austria",
+                    "country_code": "at",
+                    "country_flag": "https://cdn.soccersapi.com/images/countries/30/at.png"
+                },
+                "scores": {
+                    "home_score": "2",
+                    "away_score": "1",
+                    "ht_score": "2-0",
+                    "ft_score": "2-1",
+                    "et_score": null,
+                    "ps_score": null
+                },
+                "standings": {
+                    "home_position": 0,
+                    "away_position": 0
+                },
+                "assistants": {
+                    "first_assistant_id": null,
+                    "second_assistant_id": null,
+                    "fourth_assistant_id": null
+                },
+                "coverage": {
+                    "has_lineups": 1,
+                    "has_tvs": 1,
+                    "has_standings": 1
+                },
+                "weather_report": {
+                    "desc": "clear/sunny",
+                    "temp": {
+                        "celsius": 28,
+                        "fahrenheit": 82.4
+                    },
+                    "wind": {
+                        "kmph": 24,
+                        "miles": 14.88,
+                        "direction": "E"
+                    },
+                    "humidity_percent": 55,
+                    "pressure": 1006
+                }
+            },
+            {
+                "id": 1406357,
+                "status": 3,
+                "status_name": "Finished",
+                "status_period": null,
+                "pitch": null,
+                "referee_id": null,
+                "round_id": "139286",
+                "round_name": "2",
+                "season_id": "10512",
+                "season_name": "21/22",
+                "stage_id": "1",
+                "stage_name": "Regular Season",
+                "group_id": "222",
+                "group_name": "Bundesliga",
+                "aggregate_id": null,
+                "winner_team_id": "104",
+                "venue_id": "2424",
+                "leg": null,
+                "week": "30",
+                "deleted": "0",
+                "info": null,
+                "attendance": null,
+                "time": {
+                    "datetime": "2021-08-01 15:00:00",
+                    "date": "2021-08-01",
+                    "time": "15:00:00",
+                    "minute": null,
+                    "timestamp": 1627830000,
+                    "timezone": "UTC"
+                },
+                "teams": {
+                    "home": {
+                        "id": 104,
+                        "name": "FC Salzburg",
+                        "short_code": "SAL",
+                        "img": "https://cdn.soccersapi.com/images/soccer/teams/80/104.png",
+                        "form": null,
+                        "coach_id": null,
+                        "kit_colors": {
+                            "home_main_color": "#ff0000",
+                            "home_second_color": "#ff0000",
+                            "home_number_color": "#ffffff",
+                            "home_gk_main_color": "#ffcc00",
+                            "home_gk_second_color": "#ffcc00",
+                            "home_gk_number_color": "#000000"
+                        }
+                    },
+                    "away": {
+                        "id": 1080,
+                        "name": "SV Ried",
+                        "short_code": "SVR",
+                        "img": "https://cdn.soccersapi.com/images/soccer/teams/80/1080.png",
+                        "form": null,
+                        "coach_id": null,
+                        "kit_colors": {
+                            "away_main_color": "#346767",
+                            "away_second_color": "#008000",
+                            "away_number_color": "#ffffff",
+                            "away_gk_main_color": "#ffff33",
+                            "away_gk_second_color": "#000000",
+                            "away_gk_number_color": "#000000"
+                        }
+                    }
+                },
+                "league": {
+                    "id": 1005,
+                    "name": "Tipico Bundesliga",
+                    "type": "",
+                    "country_id": "15",
+                    "country_name": "Austria",
+                    "country_code": "at",
+                    "country_flag": "https://cdn.soccersapi.com/images/countries/30/at.png"
+                },
+                "scores": {
+                    "home_score": "7",
+                    "away_score": "1",
+                    "ht_score": "2-0",
+                    "ft_score": "7-1",
+                    "et_score": null,
+                    "ps_score": null
+                },
+                "standings": {
+                    "home_position": 0,
+                    "away_position": 0
+                },
+                "assistants": {
+                    "first_assistant_id": null,
+                    "second_assistant_id": null,
+                    "fourth_assistant_id": null
+                },
+                "coverage": {
+                    "has_lineups": 0,
+                    "has_tvs": 0,
+                    "has_standings": 1
+                },
+                "weather_report": null
+            },
+            {
+                "id": 1406350,
+                "status": 3,
+                "status_name": "Finished",
+                "status_period": null,
+                "pitch": null,
+                "referee_id": null,
+                "round_id": "139285",
+                "round_name": "1",
+                "season_id": "10512",
+                "season_name": "21/22",
+                "stage_id": "1",
+                "stage_name": "Regular Season",
+                "group_id": "222",
+                "group_name": "Bundesliga",
+                "aggregate_id": null,
+                "winner_team_id": "1080",
+                "venue_id": "2443",
+                "leg": null,
+                "week": "29",
+                "deleted": "0",
+                "info": null,
+                "attendance": null,
+                "time": {
+                    "datetime": "2021-07-25 15:00:00",
+                    "date": "2021-07-25",
+                    "time": "15:00:00",
+                    "minute": null,
+                    "timestamp": 1627225200,
+                    "timezone": "UTC"
+                },
+                "teams": {
+                    "home": {
+                        "id": 1080,
+                        "name": "SV Ried",
+                        "short_code": "SVR",
+                        "img": "https://cdn.soccersapi.com/images/soccer/teams/80/1080.png",
+                        "form": "4-4-2",
+                        "coach_id": null,
+                        "kit_colors": {
+                            "home_main_color": "#0c6655",
+                            "home_second_color": "#0c6655",
+                            "home_number_color": "#ffffff",
+                            "home_gk_main_color": "#ffff33",
+                            "home_gk_second_color": "#000000",
+                            "home_gk_number_color": "#000000"
+                        }
+                    },
+                    "away": {
+                        "id": 2871,
+                        "name": "Austria Wien",
+                        "short_code": "FAK",
+                        "img": "https://cdn.soccersapi.com/images/soccer/teams/80/2871.png",
+                        "form": "4-3-3",
+                        "coach_id": null,
+                        "kit_colors": {
+                            "away_main_color": "#ffffff",
+                            "away_second_color": "#ffffff",
+                            "away_number_color": "#6331bf",
+                            "away_gk_main_color": "#ffff00",
+                            "away_gk_second_color": "#ffff00",
+                            "away_gk_number_color": "#000000"
+                        }
+                    }
+                },
+                "league": {
+                    "id": 1005,
+                    "name": "Tipico Bundesliga",
+                    "type": "",
+                    "country_id": "15",
+                    "country_name": "Austria",
+                    "country_code": "at",
+                    "country_flag": "https://cdn.soccersapi.com/images/countries/30/at.png"
+                },
+                "scores": {
+                    "home_score": "2",
+                    "away_score": "1",
+                    "ht_score": "0-0",
+                    "ft_score": "2-1",
+                    "et_score": null,
+                    "ps_score": null
+                },
+                "standings": {
+                    "home_position": 0,
+                    "away_position": 0
+                },
+                "assistants": {
+                    "first_assistant_id": null,
+                    "second_assistant_id": null,
+                    "fourth_assistant_id": null
+                },
+                "coverage": {
+                    "has_lineups": 1,
+                    "has_tvs": 1,
+                    "has_standings": 1
+                },
+                "weather_report": {
+                    "desc": "moderate or heavy rain in area with thunder",
+                    "temp": {
+                        "celsius": 27,
+                        "fahrenheit": 80.6
+                    },
+                    "wind": {
+                        "kmph": 13,
+                        "miles": 8.06,
+                        "direction": "E"
+                    },
+                    "humidity_percent": 52,
+                    "pressure": 1011
+                }
+            },
+            {
+                "id": 1380878,
+                "status": 3,
+                "status_name": "Finished",
+                "status_period": null,
+                "pitch": null,
+                "referee_id": null,
+                "round_id": "137014",
+                "round_name": "32",
+                "season_id": "7227",
+                "season_name": "20/21",
+                "stage_id": "6",
+                "stage_name": "Group stage",
+                "group_id": "66",
+                "group_name": "Relegation round",
+                "aggregate_id": null,
+                "winner_team_id": "1080",
+                "venue_id": "2443",
+                "leg": null,
+                "week": "20",
+                "deleted": "0",
+                "info": null,
+                "attendance": null,
+                "time": {
+                    "datetime": "2021-05-21 17:00:00",
+                    "date": "2021-05-21",
+                    "time": "17:00:00",
+                    "minute": 90,
+                    "timestamp": 1621616400,
+                    "timezone": "UTC"
+                },
+                "teams": {
+                    "home": {
+                        "id": 1080,
+                        "name": "SV Ried",
+                        "short_code": "SVR",
+                        "img": "https://cdn.soccersapi.com/images/soccer/teams/80/1080.png",
+                        "form": "3-4-2-1",
+                        "coach_id": null,
+                        "kit_colors": {
+                            "home_main_color": "#346767",
+                            "home_second_color": "#008000",
+                            "home_number_color": "#ffffff",
+                            "home_gk_main_color": "#ffff33",
+                            "home_gk_second_color": "#000000",
+                            "home_gk_number_color": "#000000"
+                        }
+                    },
+                    "away": {
+                        "id": 2871,
+                        "name": "Austria Wien",
+                        "short_code": "FAK",
+                        "img": "https://cdn.soccersapi.com/images/soccer/teams/80/2871.png",
+                        "form": "4-2-3-1",
+                        "coach_id": null,
+                        "kit_colors": {
+                            "away_main_color": "#fff700",
+                            "away_second_color": "#ffbb00",
+                            "away_number_color": "#000000",
+                            "away_gk_main_color": "#ffff00",
+                            "away_gk_second_color": "#ffff00",
+                            "away_gk_number_color": "#000000"
+                        }
+                    }
+                },
+                "league": {
+                    "id": 1005,
+                    "name": "Tipico Bundesliga",
+                    "type": "Bundesliga, Relegation Round",
+                    "country_id": "15",
+                    "country_name": "Austria",
+                    "country_code": "at",
+                    "country_flag": "https://cdn.soccersapi.com/images/countries/30/at.png"
+                },
+                "scores": {
+                    "home_score": "3",
+                    "away_score": "2",
+                    "ht_score": "0-1",
+                    "ft_score": "3-2",
+                    "et_score": null,
+                    "ps_score": null
+                },
+                "standings": {
+                    "home_position": 0,
+                    "away_position": 0
+                },
+                "assistants": {
+                    "first_assistant_id": null,
+                    "second_assistant_id": null,
+                    "fourth_assistant_id": null
+                },
+                "coverage": {
+                    "has_lineups": 1,
+                    "has_tvs": 1,
+                    "has_standings": 1
+                },
+                "weather_report": {
+                    "desc": "overcast",
+                    "temp": {
+                        "celsius": 15,
+                        "fahrenheit": 59
+                    },
+                    "wind": {
+                        "kmph": 13,
+                        "miles": 8.06,
+                        "direction": "WNW"
+                    },
+                    "humidity_percent": 73,
+                    "pressure": 1015
+                }
+            },
+            {
+                "id": 1380872,
+                "status": 3,
+                "status_name": "Finished",
+                "status_period": null,
+                "pitch": null,
+                "referee_id": null,
+                "round_id": "137013",
+                "round_name": "31",
+                "season_id": "7227",
+                "season_name": "20/21",
+                "stage_id": "6",
+                "stage_name": "Group stage",
+                "group_id": "66",
+                "group_name": "Relegation round",
+                "aggregate_id": null,
+                "winner_team_id": "2876",
+                "venue_id": "191",
+                "leg": null,
+                "week": "19",
+                "deleted": "0",
+                "info": null,
+                "time": {
+                    "datetime": "2021-05-15 15:00:00",
+                    "date": "2021-05-15",
+                    "time": "15:00:00",
+                    "minute": null,
+                    "timestamp": 1621090800,
+                    "timezone": "UTC"
+                },
+                "teams": {
+                    "home": {
+                        "id": 2876,
+                        "name": "Altach",
+                        "short_code": "ALT",
+                        "img": "https://cdn.soccersapi.com/images/soccer/teams/80/2876.png",
+                        "form": "5-3-2",
+                        "coach_id": null,
+                        "kit_colors": {
+                            "home_main_color": "#ffffff",
+                            "home_second_color": "#ffffff",
+                            "home_number_color": "#000000",
+                            "home_gk_main_color": "#ff6600",
+                            "home_gk_second_color": "#ff6600",
+                            "home_gk_number_color": "#ffffff"
+                        }
+                    },
+                    "away": {
+                        "id": 1080,
+                        "name": "SV Ried",
+                        "short_code": "SVR",
+                        "img": "https://cdn.soccersapi.com/images/soccer/teams/80/1080.png",
+                        "form": "3-4-2-1",
+                        "coach_id": null,
+                        "kit_colors": {
+                            "away_main_color": "#d20000",
+                            "away_second_color": "#000000",
+                            "away_number_color": "#ffffff",
+                            "away_gk_main_color": "#ffff33",
+                            "away_gk_second_color": "#000000",
+                            "away_gk_number_color": "#000000"
+                        }
+                    }
+                },
+                "league": {
+                    "id": 1005,
+                    "name": "Tipico Bundesliga",
+                    "type": "Bundesliga, Relegation Round",
+                    "country_id": "15",
+                    "country_name": "Austria",
+                    "country_code": "at",
+                    "country_flag": "https://cdn.soccersapi.com/images/countries/30/at.png"
+                },
+                "scores": {
+                    "home_score": "3",
+                    "away_score": "0",
+                    "ht_score": "1-0",
+                    "ft_score": "3-0",
+                    "et_score": null,
+                    "ps_score": null
+                },
+                "standings": {
+                    "home_position": 0,
+                    "away_position": 0
+                },
+                "assistants": {
+                    "first_assistant_id": null,
+                    "second_assistant_id": null,
+                    "fourth_assistant_id": null
+                },
+                "coverage": {
+                    "has_lineups": 1,
+                    "has_tvs": 1,
+                    "has_standings": 1
+                },
+                "weather_report": {
+                    "desc": "overcast",
+                    "temp": {
+                        "celsius": 15,
+                        "fahrenheit": 59
+                    },
+                    "wind": {
+                        "kmph": null,
+                        "miles": 0,
+                        "direction": "NNW"
+                    },
+                    "humidity_percent": 57,
+                    "pressure": 1011
+                }
+            },
+            {
+                "id": 1380866,
+                "status": 3,
+                "status_name": "Finished",
+                "status_period": null,
+                "pitch": null,
+                "referee_id": null,
+                "round_id": "137012",
+                "round_name": "30",
+                "season_id": "7227",
+                "season_name": "20/21",
+                "stage_id": "6",
+                "stage_name": "Group stage",
+                "group_id": "66",
+                "group_name": "Relegation round",
+                "aggregate_id": null,
+                "winner_team_id": null,
+                "venue_id": "2443",
+                "leg": null,
+                "week": "19",
+                "deleted": "0",
+                "info": null,
+                "attendance": null,
+                "time": {
+                    "datetime": "2021-05-11 16:30:00",
+                    "date": "2021-05-11",
+                    "time": "16:30:00",
+                    "minute": null,
+                    "timestamp": 1620750600,
+                    "timezone": "UTC"
+                },
+                "teams": {
+                    "home": {
+                        "id": 1080,
+                        "name": "SV Ried",
+                        "short_code": "SVR",
+                        "img": "https://cdn.soccersapi.com/images/soccer/teams/80/1080.png",
+                        "form": "3-4-2-1",
+                        "coach_id": null,
+                        "kit_colors": {
+                            "home_main_color": "#346767",
+                            "home_second_color": "#008000",
+                            "home_number_color": "#ffffff",
+                            "home_gk_main_color": "#ffff33",
+                            "home_gk_second_color": "#000000",
+                            "home_gk_number_color": "#000000"
+                        }
+                    },
+                    "away": {
+                        "id": 2868,
+                        "name": "Admira Wacker",
+                        "short_code": "ADM",
+                        "img": "https://cdn.soccersapi.com/images/soccer/teams/80/2868.png",
+                        "form": "3-5-2",
+                        "coach_id": null,
+                        "kit_colors": {
+                            "away_main_color": "#ff0000",
+                            "away_second_color": "#ff0000",
+                            "away_number_color": "#ffffff",
+                            "away_gk_main_color": "#669900",
+                            "away_gk_second_color": "#000000",
+                            "away_gk_number_color": "#ffffff"
+                        }
+                    }
+                },
+                "league": {
+                    "id": 1005,
+                    "name": "Tipico Bundesliga",
+                    "type": "Bundesliga, Relegation Round",
+                    "country_id": "15",
+                    "country_name": "Austria",
+                    "country_code": "at",
+                    "country_flag": "https://cdn.soccersapi.com/images/countries/30/at.png"
+                },
+                "scores": {
+                    "home_score": "0",
+                    "away_score": "0",
+                    "ht_score": "0-0",
+                    "ft_score": "0-0",
+                    "et_score": null,
+                    "ps_score": null
+                },
+                "standings": {
+                    "home_position": 0,
+                    "away_position": 0
+                },
+                "assistants": {
+                    "first_assistant_id": null,
+                    "second_assistant_id": null,
+                    "fourth_assistant_id": null
+                },
+                "coverage": {
+                    "has_lineups": 1,
+                    "has_tvs": 1,
+                    "has_standings": 1
+                },
+                "weather_report": {
+                    "desc": "clear/sunny",
+                    "temp": {
+                        "celsius": 26,
+                        "fahrenheit": 78.8
+                    },
+                    "wind": {
+                        "kmph": 10,
+                        "miles": 6.2,
+                        "direction": "S"
+                    },
+                    "humidity_percent": 36,
+                    "pressure": 1006
+                }
+            },
+            {
+                "id": 1380861,
+                "status": 3,
+                "status_name": "Finished",
+                "status_period": null,
+                "pitch": null,
+                "referee_id": null,
+                "round_id": "137011",
+                "round_name": "29",
+                "season_id": "7227",
+                "season_name": "20/21",
+                "stage_id": "6",
+                "stage_name": "Group stage",
+                "group_id": "66",
+                "group_name": "Relegation round",
+                "aggregate_id": null,
+                "winner_team_id": null,
+                "venue_id": "1956",
+                "leg": null,
+                "week": "18",
+                "deleted": "0",
+                "info": null,
+                "attendance": null,
+                "time": {
+                    "datetime": "2021-05-08 15:00:00",
+                    "date": "2021-05-08",
+                    "time": "15:00:00",
+                    "minute": null,
+                    "timestamp": 1620486000,
+                    "timezone": "UTC"
+                },
+                "teams": {
+                    "home": {
+                        "id": 2873,
+                        "name": "Hartberg",
+                        "short_code": "HTB",
+                        "img": "https://cdn.soccersapi.com/images/soccer/teams/80/2873.png",
+                        "form": "4-2-3-1",
+                        "coach_id": null,
+                        "kit_colors": {
+                            "home_main_color": "#ffffff",
+                            "home_second_color": "#ffffff",
+                            "home_number_color": "#0040ff",
+                            "home_gk_main_color": "#ffff00",
+                            "home_gk_second_color": "#ffff00",
+                            "home_gk_number_color": "#000000"
+                        }
+                    },
+                    "away": {
+                        "id": 1080,
+                        "name": "SV Ried",
+                        "short_code": "SVR",
+                        "img": "https://cdn.soccersapi.com/images/soccer/teams/80/1080.png",
+                        "form": "3-4-3",
+                        "coach_id": null,
+                        "kit_colors": {
+                            "away_main_color": "#346767",
+                            "away_second_color": "#008000",
+                            "away_number_color": "#ffffff",
+                            "away_gk_main_color": "#ffff33",
+                            "away_gk_second_color": "#000000",
+                            "away_gk_number_color": "#000000"
+                        }
+                    }
+                },
+                "league": {
+                    "id": 1005,
+                    "name": "Tipico Bundesliga",
+                    "type": "Bundesliga, Relegation Round",
+                    "country_id": "15",
+                    "country_name": "Austria",
+                    "country_code": "at",
+                    "country_flag": "https://cdn.soccersapi.com/images/countries/30/at.png"
+                },
+                "scores": {
+                    "home_score": "1",
+                    "away_score": "1",
+                    "ht_score": "0-0",
+                    "ft_score": "1-1",
+                    "et_score": null,
+                    "ps_score": null
+                },
+                "standings": {
+                    "home_position": 0,
+                    "away_position": 0
+                },
+                "assistants": {
+                    "first_assistant_id": null,
+                    "second_assistant_id": null,
+                    "fourth_assistant_id": null
+                },
+                "coverage": {
+                    "has_lineups": 1,
+                    "has_tvs": 1,
+                    "has_standings": 1
+                },
+                "weather_report": {
+                    "desc": "partly cloudy",
+                    "temp": {
+                        "celsius": 15,
+                        "fahrenheit": 59
+                    },
+                    "wind": {
+                        "kmph": 21,
+                        "miles": 13.02,
+                        "direction": "SE"
+                    },
+                    "humidity_percent": 50,
+                    "pressure": 1024
+                }
+            },
+            {
+                "id": 1380854,
+                "status": 3,
+                "status_name": "Finished",
+                "status_period": null,
+                "pitch": null,
+                "referee_id": null,
+                "round_id": "137010",
+                "round_name": "28",
+                "season_id": "7227",
+                "season_name": "20/21",
+                "stage_id": "6",
+                "stage_name": "Group stage",
+                "group_id": "66",
+                "group_name": "Relegation round",
+                "aggregate_id": null,
+                "winner_team_id": null,
+                "venue_id": "793",
+                "leg": null,
+                "week": "17",
+                "deleted": "0",
+                "info": null,
+                "attendance": null,
+                "time": {
+                    "datetime": "2021-04-27 16:30:00",
+                    "date": "2021-04-27",
+                    "time": "16:30:00",
+                    "minute": null,
+                    "timestamp": 1619541000,
+                    "timezone": "UTC"
+                },
+                "teams": {
+                    "home": {
+                        "id": 2875,
+                        "name": "St. Polten",
+                        "short_code": "SKN",
+                        "img": "https://cdn.soccersapi.com/images/soccer/teams/80/2875.png",
+                        "form": "4-2-3-1",
+                        "coach_id": null,
+                        "kit_colors": {
+                            "home_main_color": "#ffff00",
+                            "home_second_color": "#eeff00",
+                            "home_number_color": "#005cb9",
+                            "home_gk_main_color": "#99ff00",
+                            "home_gk_second_color": "#99ff00",
+                            "home_gk_number_color": "#000000"
+                        }
+                    },
+                    "away": {
+                        "id": 1080,
+                        "name": "SV Ried",
+                        "short_code": "SVR",
+                        "img": "https://cdn.soccersapi.com/images/soccer/teams/80/1080.png",
+                        "form": "3-4-3",
+                        "coach_id": null,
+                        "kit_colors": {
+                            "away_main_color": "#d20000",
+                            "away_second_color": "#000000",
+                            "away_number_color": "#ffffff",
+                            "away_gk_main_color": "#ffff33",
+                            "away_gk_second_color": "#000000",
+                            "away_gk_number_color": "#000000"
+                        }
+                    }
+                },
+                "league": {
+                    "id": 1005,
+                    "name": "Tipico Bundesliga",
+                    "type": "Bundesliga, Relegation Round",
+                    "country_id": "15",
+                    "country_name": "Austria",
+                    "country_code": "at",
+                    "country_flag": "https://cdn.soccersapi.com/images/countries/30/at.png"
+                },
+                "scores": {
+                    "home_score": "0",
+                    "away_score": "0",
+                    "ht_score": "0-0",
+                    "ft_score": "0-0",
+                    "et_score": null,
+                    "ps_score": null
+                },
+                "standings": {
+                    "home_position": 0,
+                    "away_position": 0
+                },
+                "assistants": {
+                    "first_assistant_id": null,
+                    "second_assistant_id": null,
+                    "fourth_assistant_id": null
+                },
+                "coverage": {
+                    "has_lineups": 1,
+                    "has_tvs": 1,
+                    "has_standings": 1
+                },
+                "weather_report": {
+                    "desc": "partly cloudy",
+                    "temp": {
+                        "celsius": 13,
+                        "fahrenheit": 55.4
+                    },
+                    "wind": {
+                        "kmph": 16,
+                        "miles": 9.92,
+                        "direction": "SSE"
+                    },
+                    "humidity_percent": 55,
+                    "pressure": 1009
+                }
+            }
+        ]
+    },
+    "meta": {
+        "requests_left": 96,
+        "user": "bladesredditbot",
+        "plan": "free_plan",
+        "pages": 1,
+        "page": 1,
+        "count": 3,
+        "total": null,
+        "msg": null
+    }
+}

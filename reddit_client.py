@@ -7,6 +7,7 @@ import soccersapi_client
 config = yaml.load(open('config.yaml'), Loader=yaml.FullLoader)
 sidebar_league_id = config['soccersapi_sidebar_league_id']
 sub_team_name = config['reddit_sub_team_name']
+sub_team_id = config['reddit_sub_team_id']
 subreddit_name = config['reddit_subreddit_name']
 sidebar_standings_widget_name = config['reddit_sidebar_standings_widget_name']
 
@@ -43,6 +44,18 @@ def update_sidebar_standings(reddit):
     for widget in widgets.sidebar:
         if widget.shortName == sidebar_standings_widget_name:
             widget.mod.update(text=build_sidebar_standings())
+
+
+# general thought here is that this will be triggered morning of a match via CRON job or something similar..might
+# isolate that service and turn this whole thing into an API sort of app
+def match_submission(reddit):
+    match = soccersapi_client.get_today_fixtures(sub_team_id)
+    if match:
+        title = "Match Thread: "
+        self_text = "match stuff"
+        flair_text = "Match Thread"
+
+        reddit.subreddit(subreddit_name).submit(title, selftext=self_text, flair_text=flair_text)
 
 
 reddit = auth()
