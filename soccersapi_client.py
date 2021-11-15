@@ -1,5 +1,6 @@
 import yaml
 import requests
+import json
 
 # temp load config for testing, @TODO move to main and pass through
 config = yaml.load(open('config.yaml'), Loader=yaml.BaseLoader)
@@ -61,4 +62,19 @@ def get_today_fixtures(team_id):
     if next_last['data']['current']:
         match = next_last['data']['current'][0]
         return get_match_by_id(match['id'])
+
+
+# @TODO make this real
+def get_match_lineups(match_id):
+    return json.load(open('./mock_data/match_lineups.json'))
+
+
+# @TODO make this real
+def get_match_events(match_id):
+    return json.load(open('./mock_data/match_events.json'))
+
+
+# @TODO make this real
+def get_venue(venue_id):
+    return json.load(open('./mock_data/venue.json'))
 
