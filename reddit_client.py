@@ -2,6 +2,7 @@ import praw
 import yaml
 import time
 import soccersapi_client
+import json
 
 # temp load config for testing, @TODO move to main and pass through
 config = yaml.load(open('config.yaml'), Loader=yaml.FullLoader)
@@ -10,6 +11,7 @@ sub_team_name = config['reddit_sub_team_name']
 sub_team_id = config['reddit_sub_team_id']
 subreddit_name = config['reddit_subreddit_name']
 sidebar_standings_widget_name = config['reddit_sidebar_standings_widget_name']
+match_thread_flair_id = config['reddit_submission_flair_match_thread']
 
 
 def auth():
@@ -49,13 +51,21 @@ def update_sidebar_standings(reddit):
 # general thought here is that this will be triggered morning of a match via CRON job or something similar..might
 # isolate that service and turn this whole thing into an API sort of app
 def match_submission(reddit):
-    match = soccersapi_client.get_today_fixtures(sub_team_id)
+    # match = soccersapi_client.get_today_fixtures(sub_team_id)
+    match = json.load(open('./mock_data/future_fixture.json'))
+    print(match)
     if match:
-        title = "Match Thread: "
+        home_team = match['data']['teams']['home']['name']
+        away_team = match['data']['teams']['away']['name']
+        match_date_time = match['data']['time']['datetime']
+
+        title = "Match Thread: %s vs. %s" % (home_team, away_team)
         self_text = "match stuff"
         flair_text = "Match Thread"
 
-        reddit.subreddit(subreddit_name).submit(title, selftext=self_text, flair_text=flair_text)
+        reddit.subreddit(subreddit_name).submit(title, selftext=self_text, flair_text=flair_text,
+                                                flair_id=match_thread_flair_id)
 
 
 reddit = auth()
+match_submission(reddit)
