@@ -126,15 +126,14 @@ def build_events_table(match):
     home_team = match['teams']['home']['name']
     home_team_id = '2868'
     away_team = match['teams']['away']['name']
-    away_team_id = '1080'
 
-    header = '|**%s**|\'|**%s**|' % (home_team, away_team)
+    header = '|**%s**|Time|**%s**|' % (home_team, away_team)
     table = [header, '|:--:|:--:|:--:|']
 
     events = soccersapi_client.get_match_events(match['id'])
     for event in events['data']:
         team_id = event['team_id']
-        minute = event['minute']
+        minute = '%s\'' % event['minute']
         player = event['player_name'].split(',')[0]
         related_player = event['related_player_name']
         if related_player:
