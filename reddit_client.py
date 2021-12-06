@@ -84,6 +84,10 @@ def match_results_submission(reddit):
                                                 flair_id=results_thread_flair_id)
 
 
+def match_thread_update(reddit, match, post):
+    self_text = build_match_thread_body(match)
+    post.edit(self_text)
+
 def build_match_thread_body(match):
     post = []
 
