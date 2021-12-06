@@ -14,6 +14,7 @@ sub_team_id = config['reddit_sub_team_id']
 subreddit_name = config['reddit_subreddit_name']
 sidebar_standings_widget_name = config['reddit_sidebar_standings_widget_name']
 match_thread_flair_id = config['reddit_submission_flair_match_thread']
+results_thread_flair_id = config['reddit_submission_flair_results_thread']
 
 
 def auth():
@@ -66,6 +67,21 @@ def match_submission(reddit):
 
         reddit.subreddit(subreddit_name).submit(title, selftext=self_text, flair_text=flair_text,
                                                 flair_id=match_thread_flair_id)
+
+
+def match_results_submission(reddit):
+    # match = soccersapi_client.get_today_fixtures(sub_team_id)
+    match = json.load(open('./mock_data/finished_fixture.json'))['data']
+    if match:
+        home_team = match['teams']['home']['name']
+        away_team = match['teams']['away']['name']
+
+        title = "Match Results: %s vs. %s" % (home_team, away_team)
+        self_text = build_match_thread_body(match)
+        flair_text = "Match Results"
+
+        reddit.subreddit(subreddit_name).submit(title, selftext=self_text, flair_text=flair_text,
+                                                flair_id=results_thread_flair_id)
 
 
 def build_match_thread_body(match):
