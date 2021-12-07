@@ -9,6 +9,7 @@ auth_params = {'user': config['soccersapi_user'], 'token': config['soccersapi_to
 
 leagues_uri = '%sleagues/' % base_uri
 fixtures_uri = '%sfixtures/' % base_uri
+venues_uri = '%svenues/' % base_uri
 
 
 def request(uri, params):
@@ -64,17 +65,17 @@ def get_today_fixtures(team_id):
         return get_match_by_id(match['id'])
 
 
-# @TODO make this real
 def get_match_lineups(match_id):
-    return json.load(open('./mock_data/match_lineups.json'))
+    params = {**auth_params, **{'t': 'match_lineups', 'id': match_id}}
+    return request(fixtures_uri, params)
 
 
-# @TODO make this real
 def get_match_events(match_id):
-    return json.load(open('./mock_data/match_events.json'))
+    params = {**auth_params, **{'t': 'match_events', 'id': match_id}}
+    return request(fixtures_uri, params)
 
 
-# @TODO make this real
 def get_venue(venue_id):
-    return json.load(open('./mock_data/venue.json'))
+    params = {**auth_params, **{'t': 'info', 'id': venue_id}}
+    return request(venues_uri, params)
 

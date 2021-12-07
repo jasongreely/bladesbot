@@ -8,6 +8,15 @@ config = yaml.load(open('config.yaml'), Loader=yaml.FullLoader)
 team_id = config['reddit_sub_team_id']
 match_status_finished = config['soccersapi_match_status_finished']
 
+reddit = reddit_client.auth()
+
+update_sidebar = False
+
+if update_sidebar:
+    print('Updating sidebar...')
+    reddit_client.update_sidebar_standings(reddit)
+    print('Sidebar updated.')
+
 print('Checking for fixtures..')
 match = soccersapi_client.get_today_fixtures(team_id)
 if match:
@@ -17,10 +26,8 @@ if match:
 
     if match and match_status not in match_status_finished:
         print('Posting match thread..')
-        reddit = reddit_client.auth()
-        match_post = reddit_client.match_submission(reddit)
+        match_post = reddit_client.match_submission(reddit, match)
         print('Thread posted.')
-        print(match_post)
 
         time.sleep(60)
 
@@ -31,9 +38,8 @@ if match:
 
             if match_status not in match_status_finished:
                 print('Editing match thread...')
-                match_post = reddit_client.match_thread_update(reddit, match, match_post)
+                match_post = reddit_client.match_thread_update(match, match_post)
                 print('Edited.')
-                print(match_post)
 
             time.sleep(60)
 
