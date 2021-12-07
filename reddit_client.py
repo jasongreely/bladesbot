@@ -102,6 +102,9 @@ def build_match_thread_body(match):
     post.append('###Match Events:')
     events = build_events_table(match, match['teams']['home']['id'])
     post.append(events)
+    post.append('\n')
+
+    post.append('^(Bot created by [crum_bum](https://www.reddit.com/user/Crum_Bum), report issues and contribute on [github](https://github.com/jasongreely/bladesbot))')
 
     return '\n'.join(post)
 
