@@ -2,6 +2,7 @@ import praw
 import yaml
 import time
 import soccersapi_client
+from match_post import MatchPost
 
 config = yaml.load(open('config.yaml'), Loader=yaml.FullLoader)
 event_types = yaml.load(open('event_types.yaml'), Loader=yaml.FullLoader)
@@ -13,6 +14,7 @@ subreddit_name = config['reddit_subreddit_name']
 sidebar_standings_widget_name = config['reddit_sidebar_standings_widget_name']
 match_thread_flair_id = config['reddit_submission_flair_match_thread']
 results_thread_flair_id = config['reddit_submission_flair_results_thread']
+match_status_notstarted = config['soccersapi_match_status_notstarted']
 
 
 def auth():
@@ -31,7 +33,9 @@ def build_sidebar_standings():
     if standings['data']['standings']:
         for team in standings['data']['standings']:
             team_overall = team['overall']
-            table_row = '%s|%s|%s|%s|%s|%s' % (team_overall['position'], team['team_name'], team_overall['points'], team_overall['won'], team_overall['draw'], team_overall['lost'])
+            table_row = '%s|%s|%s|%s|%s|%s' % (
+                team_overall['position'], team['team_name'], team_overall['points'], team_overall['won'],
+                team_overall['draw'], team_overall['lost'])
             if team['team_name'] == sub_team_name:
                 cells = table_row.split('|')
                 formatted_row = []
@@ -49,18 +53,20 @@ def update_sidebar_standings(reddit):
             widget.mod.update(text=build_sidebar_standings())
 
 
-def match_submission(reddit, match):
+def match_submission(reddit, match, match_post):
     match = match['data']
     if match:
         home_team = match['teams']['home']['name']
         away_team = match['teams']['away']['name']
 
         title = "Match Thread: %s vs. %s" % (home_team, away_team)
-        self_text = build_match_thread_body(match)
+        venue = soccersapi_client.get_venue(match['venue_id'])['data']
+        starting_xi = build_starting_xi(match)
+        match_post = build_match_thread_body(match, venue, starting_xi, match_post)
         flair_text = "Match Thread"
 
-        return reddit.subreddit(subreddit_name).submit(title, selftext=self_text, flair_text=flair_text,
-                                                flair_id=match_thread_flair_id)
+        return reddit.subreddit(subreddit_name).submit(title, selftext=match_post.to_post(), flair_text=flair_text,
+                                                       flair_id=match_thread_flair_id)
 
 
 def match_results_submission(reddit, match):
@@ -73,48 +79,48 @@ def match_results_submission(reddit, match):
         flair_text = "Match Results"
 
         return reddit.subreddit(subreddit_name).submit(title, selftext=self_text, flair_text=flair_text,
-                                                flair_id=results_thread_flair_id)
+                                                       flair_id=results_thread_flair_id)
 
 
-def match_thread_update(match, post):
+# @TODO can probably pull some of this out for re-use
+def match_thread_update(match, match_post):
+    post = match_post.get_reddit_post()
     match = match['data']
-    self_text = build_match_thread_body(match)
-    return post.edit(self_text)
-
-
-def build_match_thread_body(match):
-    post = []
-
-    match_date = '**Date:** %s\n\n' % match['time']['date']
-    post.append(match_date)
-
-    match_time = '**Time:** %s\n\n' % match['time']['time']
-    post.append(match_time)
 
     venue = soccersapi_client.get_venue(match['venue_id'])['data']
-    venue_text = "**Location:** %s - %s, %s  \n" % (venue['name'], venue['city'], venue['country']['name'])
-    post.append(venue_text)
-
-    post.append('###Starting XI:')
     starting_xi = build_starting_xi(match)
-    post.append(starting_xi)
+    match_post = build_match_thread_body(match, venue, starting_xi, match_post)
+    post.edit(match_post.to_post())
+    return match_post
 
-    post.append('###Match Events:')
+
+def build_match_thread_body(match, venue, starting_xi, match_post):
+    match_post.set_date(match['time']['date'])
+
+    match_post.set_time(match['time']['time'])
+
+    match_post.set_venue(venue)
+
+    match_post.set_starting_xi(starting_xi)
     events = build_events_table(match, match['teams']['home']['id'])
-    post.append(events)
-    post.append('\n')
+    match_post.set_events(events)
 
-    post.append('^(Bot created by [crum_bum](https://www.reddit.com/user/Crum_Bum), report issues and contribute on [github](https://github.com/jasongreely/bladesbot))')
+    return match_post
 
-    return '\n'.join(post)
+
+def build_updated_match_thread_body(match, match_post):
+    events = build_events_table(match, match['teams']['home']['id'])
+    match_post.set_events(events)
+
+    return match_post.to_post()
 
 
 def build_starting_xi(match):
     home_team = match['teams']['home']['name']
     away_team = match['teams']['away']['name']
 
-    header = '|**%s**|\#|Position|**%s**|\#|Position|' % (home_team, away_team)
-    table = [header, '|:-|:--:|:--:|:-|:--:|:--:|']
+    header = '|**%s**|\#|**%s**|\#|' % (home_team, away_team)
+    table = [header, '|:-|:--:|:-|:--:|']
 
     lineups = soccersapi_client.get_match_lineups(match['id'])['data']
     home_squad = lineups['home']['squad']
@@ -124,15 +130,16 @@ def build_starting_xi(match):
         home_player = home_squad[x]
         away_player = away_squad[x]
 
-        table_row = '%s|%s|%s|%s|%s|%s' % (build_player_name(home_player), home_player['number'], home_player['position'],
-                                           build_player_name(away_player), away_player['number'], away_player['position'])
+        table_row = '%s|%s|%s|%s' % (
+            build_player_name(home_player), home_player['number'],
+            build_player_name(away_player), away_player['number'])
         table.append(table_row)
 
     return '\n'.join(table)
 
 
 def build_player_name(player):
-    name = '%s %s' % (player['player']['firstname'], player['player']['lastname'])
+    name = '%s. %s' % (player['player']['firstname'][0], player['player']['lastname'])
     if player['captain']:
         name += ' (C)'
     return name
@@ -182,4 +189,3 @@ def build_events_table(match, home_team_id):
             table_row = '||%s|%s|' % (minute, event_message)
             table.append(table_row)
     return '\n'.join(table)
-

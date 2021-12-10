@@ -1,6 +1,7 @@
 import yaml
 import requests
 import json
+from datetime import date
 
 # temp load config for testing, @TODO move to main and pass through
 config = yaml.load(open('config.yaml'), Loader=yaml.BaseLoader)
@@ -57,12 +58,19 @@ def get_match_by_id(match_id):
     return request(fixtures_uri, params)
 
 
-# get matches for today
+# get matches for today @TODO only return a value if one hour prior to match start
 def get_today_fixtures(team_id):
-    next_last = get_next_last_fixtures(team_id)
-    if next_last['data']['current']:
-        match = next_last['data']['current'][0]
-        return get_match_by_id(match['id'])
+    next_last = get_next_last_fixtures(team_id)['data']
+    match = None
+    if next_last['current']:
+        match = next_last['current'][0]
+    else:
+        next_match = next_last['next'][0]
+        today = date.today().strftime('%Y-%m-%d')
+        if next_match['time']['date'] == today:
+            match = next_match
+
+    return get_match_by_id(match['id'])
 
 
 def get_match_lineups(match_id):
