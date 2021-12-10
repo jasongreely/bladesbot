@@ -5,11 +5,7 @@ event_types = yaml.load(open('event_types.yaml'), Loader=yaml.FullLoader)
 
 
 def build_player_name(player):
-    first_name = player['player']['firstname'].split[' '][0]
-    name = '%s %s' % (first_name, player['player']['lastname'])
-    if player['captain']:
-        name += ' (C)'
-    return name
+    return '%s. %s' % (player['player']['firstname'][0], player['player']['lastname'])
 
 
 def get_player_last_name(name):
@@ -56,30 +52,6 @@ def build_events_table(match, home_team_id):
             else:
                 table_row = '||%s|%s|' % (minute, event_message)
                 table.append(table_row)
-        return '\n'.join(table)
-
-
-def build_starting_xi(match):
-    home_team = match['teams']['home']['name']
-    away_team = match['teams']['away']['name']
-
-    header = '|**%s**|\#|Position|**%s**|\#|Position|' % (home_team, away_team)
-    table = [header, '|:-|:--:|:--:|:-|:--:|:--:|']
-
-    lineups = soccersapi_client.get_match_lineups(match['id'])['data']
-    if lineups:
-        home_squad = lineups['home']['squad']
-        away_squad = lineups['away']['squad']
-
-        for x in range(len(home_squad)):
-            home_player = home_squad[x]
-            away_player = away_squad[x]
-
-            table_row = '%s|%s|%s|%s|%s|%s' % (
-                build_player_name(home_player), home_player['number'], home_player['position'],
-                build_player_name(away_player), away_player['number'], away_player['position'])
-            table.append(table_row)
-
         return '\n'.join(table)
 
 
@@ -159,8 +131,5 @@ class MatchPost:
 
         if not self.starting_xi and not self.events:
             post.append("Match data not yet available")
-
-        post.append('\n')
-        post.append('^(match thread updates every minute)')
 
         return '\n'.join(post)

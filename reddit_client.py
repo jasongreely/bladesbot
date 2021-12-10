@@ -81,6 +81,7 @@ def match_results_submission(reddit, match):
         return reddit.subreddit(subreddit_name).submit(title, selftext=self_text, flair_text=flair_text,
                                                        flair_id=results_thread_flair_id)
 
+
 # @TODO can probably pull some of this out for re-use
 def match_thread_update(match, match_post):
     post = match_post.get_reddit_post()
@@ -118,27 +119,27 @@ def build_starting_xi(match):
     home_team = match['teams']['home']['name']
     away_team = match['teams']['away']['name']
 
-    header = '|**%s**|\#|Position|**%s**|\#|Position|' % (home_team, away_team)
-    table = [header, '|:-|:--:|:--:|:-|:--:|:--:|']
+    header = '|**%s**|\#|**%s**|\#|' % (home_team, away_team)
+    table = [header, '|:-|:--:|:-|:--:|']
 
     lineups = soccersapi_client.get_match_lineups(match['id'])['data']
     home_squad = lineups['home']['squad']
     away_squad = lineups['away']['squad']
-    # home_squad = sorted(home_squad, key=lambda k: k['position'])
+
     for x in range(len(home_squad)):
         home_player = home_squad[x]
         away_player = away_squad[x]
 
-        table_row = '%s|%s|%s|%s|%s|%s' % (
-            build_player_name(home_player), home_player['number'], home_player['position'],
-            build_player_name(away_player), away_player['number'], away_player['position'])
+        table_row = '%s|%s|%s|%s' % (
+            build_player_name(home_player), home_player['number'],
+            build_player_name(away_player), away_player['number'])
         table.append(table_row)
 
     return '\n'.join(table)
 
 
 def build_player_name(player):
-    name = '%s %s' % (player['player']['firstname'], player['player']['lastname'])
+    name = '%s. %s' % (player['player']['firstname'][0], player['player']['lastname'])
     if player['captain']:
         name += ' (C)'
     return name
