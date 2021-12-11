@@ -90,8 +90,11 @@ def match_thread_update(match, match_post):
     venue = soccersapi_client.get_venue(match['venue_id'])['data']
     starting_xi = build_starting_xi(match)
     match_post = build_match_thread_body(match, venue, starting_xi, match_post)
-    post.edit(match_post.to_post())
-    return match_post
+    try:
+        post.edit(match_post.to_post())
+        return match_post
+    except Exception as e:
+        print(e)
 
 
 def build_match_thread_body(match, venue, starting_xi, match_post):
