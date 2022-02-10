@@ -117,7 +117,9 @@ class MatchPost:
         match_time = '**Time:** %s\n\n' % self.time
         post.append(match_time)
 
-        venue_text = "**Location:** %s - %s, %s  \n" % (self.venue['name'], self.venue['city'],
+        venue_text = ''
+        if self.venue:
+            venue_text = "**Location:** %s - %s, %s  \n" % (self.venue['name'], self.venue['city'],
                                                         self.venue['country']['name'])
         post.append(venue_text)
 

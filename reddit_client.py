@@ -60,7 +60,12 @@ def match_submission(reddit, match, match_post):
         away_team = match['teams']['away']['name']
 
         title = "Match Thread: %s vs. %s" % (home_team, away_team)
-        venue = soccersapi_client.get_venue(match['venue_id'])['data']
+        venue = ''
+        try:
+            venue = soccersapi_client.get_venue(match['venue_id'])['data']
+        except Exception as e:
+            print(e)
+
         starting_xi = build_starting_xi(match)
         match_post = build_match_thread_body(match, venue, starting_xi, match_post)
         flair_text = "Match Thread"
